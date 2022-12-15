@@ -35,6 +35,9 @@
   - Efeitos
   - Background
   - Animações
+
+## Sprint 3
+
 - Lógica de Programação(C#)
   - Variáveis
   - Tipos de dados
@@ -50,7 +53,7 @@
   - Diagrama de Classes
   - Interfaces
   
-## Sprint 3
+## Sprint 4
 
 - Arquitetura MVC
   - Introdução
