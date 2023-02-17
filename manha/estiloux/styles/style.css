@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    color: grey;
+}
+
+header {
+    background-color: grey;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
