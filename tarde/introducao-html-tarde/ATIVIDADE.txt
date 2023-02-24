@@ -1,0 +1,6 @@
+** RENOMEAR O ARQUIVO exemplo-aplicacao.html PARA inicio.html
+
+** CRIAR OS ARQUIVOS HTML ABAIXO COM PELO MENOS UM TÍTULO PRINCIAL
+    ** jogadores.html
+    ** equipes.html
+    ** login.html

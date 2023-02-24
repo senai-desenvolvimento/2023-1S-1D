@@ -1,13 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+/* Reset de propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
-    font-family: sans-serif;
+    
+    font-family: 'Quicksand', sans-serif;
     color: grey;
 }
 
+/* configurações genéricas */
+
+.container-grid {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: purple; */
+}
+
+
+/***** Cabeçalho *****/
 header {
     background-color: grey;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    font-weight: 300;
+    /* border: 2px solid white; */
+}
+
+header h1 #logoux{
+    font-weight: 600;
+    font-style: italic;
+}
+
+header nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* **** MAIN **** */
+
+main .colunas-flex {
+ display: flex;
+ justify-content: space-between;   
+}
+
+main .coluna1 {
+    width: 75%;
+    /* background-color: green; */
+}
+
+/* imagem do lápis */
+main .coluna1 #lapis {
+    width: 100%;
+}
+
+main .coluna2 {
+    width: 20%;
+    /* background-color: green; */
 }
