@@ -1,32 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:ital,wght@0,200;1,600&display=swap');
 
-/* Reset de propriedades */
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+/* reset de propriedades */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.container-grid {
+    width: 100%; /* largura padrão, não precisaria colocar */
+    max-width: 1000px; /* limite máximo de largura */
+    min-width: 992px; /* limite mínimo de largura */
+    margin: 0 auto; /* margem laterais automática - centraliza o elemento */
+    /* background-color: yellowgreen; */
+}
 
 body {
-    
     font-family: 'Quicksand', sans-serif;
     color: grey;
+    background-color: #EDECED;
 }
 
-/* configurações genéricas */
-
-.container-grid {
-    width: 80%;
-    margin: 0 auto;
-    /* background-color: purple; */
-}
-
-
-/***** Cabeçalho *****/
 header {
-    background-color: grey;
+    background-color: #676767;
 }
+
+
 
 header .header-flex {
     display: flex;
@@ -34,21 +36,26 @@ header .header-flex {
 }
 
 header h1 {
+    text-transform: lowercase;
     color: white;
-    font-weight: 300;
-    /* border: 2px solid white; */
+    font-family: 'Titillium Web', sans-serif;
 }
 
-header h1 #logoux{
-    font-weight: 600;
+header h1 #logoux {
+    text-transform: inherit;
+    font-family: 'Titillium Web', sans-serif;
     font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 header nav {
-    width: 200px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 300px;
+    /* border: 2px solid white; */
 }
 
 header nav a {
@@ -56,25 +63,51 @@ header nav a {
     text-decoration: none;
 }
 
-
-/* **** MAIN **** */
-
-main .colunas-flex {
- display: flex;
- justify-content: space-between;   
-}
-
-main .coluna1 {
-    width: 75%;
-    /* background-color: green; */
-}
-
-/* imagem do lápis */
-main .coluna1 #lapis {
+main img {
     width: 100%;
 }
 
+main .colunas-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* section com a class coluna1 */
+main .coluna1 {
+    width: 75%;
+    background-color: white;
+}
+
+main .coluna1 h2 {
+
+    margin: 20px;
+}
+
+main .coluna1 p {
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+
+    margin: 0 20px 20px 20px;
+
+    line-height: 24px;
+}
+
+/* aside com a class coluna2 */
 main .coluna2 {
     width: 20%;
-    /* background-color: green; */
+}
+
+main .coluna2 article {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 0;
+    color: white;
+    background-color: #676767;
 }

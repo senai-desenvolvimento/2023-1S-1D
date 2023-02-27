@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            width: 50%;
+            height: 400px;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        div p:hover {
+            box-shadow: -3px -5px 10px rgb(0 0 0 / 40%);
+        }
+
+        div p {
+            transition: box-shadow 0.4s;
+            width: 150px;
+            height: 150px;
+            background-color: salmon;
+            color: red;
+            margin-top: 30px;
+            border: none;
+            margin-left: 30px;
+            box-shadow: 3px 5px 10px rgb(0 0 0 / 40%);
+            
+            /* 
+                margin-top
+                margin-bottom
+
+                padding-top
+                padding-left
+
+                border-top
+                border-bottom
+
+            */
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p>Parágrafo 1</p>
+    </div>
+</body>
+</html>

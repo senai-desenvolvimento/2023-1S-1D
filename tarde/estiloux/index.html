@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilo Ux</title>
-    
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
-        <div class="grid-layout header-flex">
+        <div class="container-grid header-flex">
             <h1>Estilo<span id="logoux">Ux</span></h1>
             <nav>
                 <a href="">Home</a>
@@ -23,38 +23,50 @@
     </header>
 
     <main>
-        <section>
-            <img src="images/lapis-de-cor.png" alt="Lápis de cor">
+        <div class="container-grid colunas-flex">
+            <section class="coluna1">
+                <img src="images/lapis-de-cor.png" alt="Lápis de cor">
 
-            <h2>Cores com harmonia</h2>
+                <h2>Cores com harmonia</h2>
 
-            <h3>Entenda como fazer combinação de cores que fazem sentido para sua identidade visual</h3>
+                <p>Entenda como fazer combinação de cores que fazem sentido para sua identidade visual</p>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, nesciunt quidem! Repudiandae
-                maiores provident dolorem harum consequuntur molestiae fugit, suscipit nobis nesciunt aliquid voluptas
-                reiciendis enim ea, temporibus, omnis veritatis.Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Laboriosam, nesciunt quidem! Repudiandae maiores provident dolorem harum consequuntur molestiae
-                fugit, suscipit nobis nesciunt aliquid voluptas reiciendis enim ea, temporibus, omnis veritatis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, nesciunt quidem! Repudiandae
+                    maiores provident dolorem harum consequuntur molestiae fugit, suscipit nobis nesciunt aliquid
+                    voluptas
+                    reiciendis enim ea, temporibus, omnis veritatis.Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Laboriosam, nesciunt quidem! Repudiandae maiores provident dolorem harum consequuntur
+                    molestiae
+                    fugit, suscipit nobis nesciunt aliquid voluptas reiciendis enim ea, temporibus, omnis veritatis.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, sequi iusto in, ratione, hic magnam amet
-                sit voluptates corporis quasi iure? Doloremque hic minus recusandae quasi tenetur vero ullam maxime.</p>
-        </section>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, sequi iusto in, ratione, hic magnam
+                    amet
+                    sit voluptates corporis quasi iure? Doloremque hic minus recusandae quasi tenetur vero ullam maxime.
+                </p>
+            </section>
 
-        <aside>
-            <article>
-                <h3>Buscar</h3>
-            </article>
-            <article>
-                <h3>Posts Anteriores</h3>
-            </article>
-            <article>
-                <h3>Inscreva-se</h3>
-            </article>
-        </aside>
+            <aside class="coluna2">
+                <article>
+                    <h3>Buscar</h3>
+                </article>
+                <article>
+                    <h3>Posts Anteriores</h3>
+                </article>
+                <article>
+                    <h3>Inscreva-se</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta voluptate odio a adipisci, nostrum.</p>
+                    <input type="text">
+                </article>
+            </aside>
+
+         </div> <!-- fim da div container-grid -->
+
     </main>
 
     <footer>
-        <p>Estilo UX 2023 - Todos os direitos reservados.</p>
+        <div class="container-grid">
+            <p>Estilo UX 2023 - Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 

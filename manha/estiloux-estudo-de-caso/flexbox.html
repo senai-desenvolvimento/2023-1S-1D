@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         div {/*container flex */
+            display: flex;
+            flex-direction: row;/* eixo principal */
+            justify-content: center;/* alinha ref. direção */
+            align-items: center;/* alinha ref. contrário da direção */
+
+            width: 90%;
+            height: 600px;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        div p {
+            width: 150px;
+            height: 150px;
+            background-color: salmon;
+            color: white;
+            margin-top: 30px;
+            border: none;
+            margin-left: 30px;
+            box-shadow: 3px 5px 10px rgb(0 0 0 / 40%);
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <p>Parágrafo 3</p>
+    </div>
+</body>
+</html>

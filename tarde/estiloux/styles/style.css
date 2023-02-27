@@ -10,20 +10,25 @@ font-family: 'Titillium Web', sans-serif; */
     box-sizing: border-box;
 }
 
+.container-grid {
+    width: 100%; /* largura padrão, não precisaria colocar */
+    max-width: 1000px; /* limite máximo de largura */
+    min-width: 992px; /* limite mínimo de largura */
+    margin: 0 auto; /* margem laterais automática - centraliza o elemento */
+    /* background-color: yellowgreen; */
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     color: grey;
+    background-color: #EDECED;
 }
 
 header {
-    background-color: grey;
+    background-color: #676767;
 }
 
-header .grid-layout {
-    width: 80%;
-    margin: 0 auto;
-    /* background-color: yellowgreen; */
-}
+
 
 header .header-flex {
     display: flex;
@@ -50,10 +55,59 @@ header nav {
     justify-content: space-between;
     align-items: center;
     width: 300px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 header nav a {
     color: white;
     text-decoration: none;
+}
+
+main img {
+    width: 100%;
+}
+
+main .colunas-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* section com a class coluna1 */
+main .coluna1 {
+    width: 75%;
+    background-color: white;
+}
+
+main .coluna1 h2 {
+
+    margin: 20px;
+}
+
+main .coluna1 p {
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+
+    margin: 0 20px 20px 20px;
+
+    line-height: 24px;
+}
+
+/* aside com a class coluna2 */
+main .coluna2 {
+    width: 20%;
+}
+
+main .coluna2 article {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 0;
+    color: white;
+    background-color: #676767;
 }
