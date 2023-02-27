@@ -10,12 +10,10 @@ font-family: 'Titillium Web', sans-serif; */
     box-sizing: border-box;
 }
 
-.container-grid {
-    width: 100%; /* largura padrão, não precisaria colocar */
-    max-width: 1000px; /* limite máximo de largura */
-    min-width: 992px; /* limite mínimo de largura */
-    margin: 0 auto; /* margem laterais automática - centraliza o elemento */
-    /* background-color: yellowgreen; */
+/* classes genéricas */
+.grid-layout {
+    width: 80%; 
+    margin: 0 auto;
 }
 
 body {
@@ -27,8 +25,6 @@ body {
 header {
     background-color: #676767;
 }
-
-
 
 header .header-flex {
     display: flex;
@@ -63,51 +59,32 @@ header nav a {
     text-decoration: none;
 }
 
-main img {
+/****** Main ******/
+main {
+    padding-top: 20px;
+}
+main #lapis {
     width: 100%;
 }
 
 main .colunas-flex {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
-/* section com a class coluna1 */
+/* section */
 main .coluna1 {
     width: 75%;
     background-color: white;
 }
 
-main .coluna1 h2 {
-
-    margin: 20px;
-}
-
-main .coluna1 p {
-    /* margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px; */
-
-    margin: 0 20px 20px 20px;
-
-    line-height: 24px;
-}
-
-/* aside com a class coluna2 */
+/* aside */
 main .coluna2 {
-    width: 20%;
+    width: 23%;
 }
 
+/* articles */
 main .coluna2 article {
     margin-bottom: 20px;
     background-color: white;
-}
-
-/* footer */
-
-footer {
-    padding: 20px 0;
-    color: white;
-    background-color: #676767;
 }
