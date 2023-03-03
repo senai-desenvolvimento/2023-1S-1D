@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            width: 600px;
+            height: 500px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+
+        section article {
+            width: 100px;
+            height: 100px;
+
+            margin-right: calc(500px - 490px);
+
+            background-color: salmon;
+            border: 1px solid black;
+        }
+
+        #diferente {
+            position: relative; /* referência é o proprio elemento */
+            top: 10px;
+            left: 10px;
+
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article></article>
+        <article></article>
+        <article id="diferente"></article>
+        <article></article>
+        <article></article>
+    </section>
+
+</body>
+</html>

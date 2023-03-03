@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            width: 600px;
+            height: 500px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+
+        section article {
+            width: 100px;
+            height: 100px;
+
+            margin-right: calc(500px - 490px);
+
+            background-color: salmon;
+            border: 1px solid black;
+        }
+
+        #diferente {
+            position: fixed; /* referência é o proprio elemento */
+            bottom: 20px;
+            right: 20px;
+
+            background-color: greenyellow;
+        }
+
+        #fechar {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: rgb(92, 92, 244);
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #eduardo {
+            position: relative;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <section id="eduardo"><!-- relative -->
+        <article >The man!</article>
+        <article></article>
+         <article > ]\
+             <div id="fechar">x</div><!-- absolute -->
+        </article>
+        <article></article>
+        <article></article>
+    </section>
+
+</body>
+</html>

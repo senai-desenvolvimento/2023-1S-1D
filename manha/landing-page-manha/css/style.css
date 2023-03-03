@@ -1,0 +1,185 @@
+/* imports  */
+
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Genéricas */
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+}
+
+body {
+    background-color: #080324;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    height: 60px;
+    background-color: #F9003D;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    /* border: 3px solid white; */
+}
+
+header nav a {
+    font-family: "My Font";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 20px black;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    text-shadow: 0px 0px 5px rgba(249, 0, 61, 0.3);
+    background-color: white;
+    color: #F9003D;
+}
+
+
+/* MAIN */
+
+/* banner */
+main .banner {
+    height: 740px;
+    background-image: url(../assets/images/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+main .banner-flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* border: 3px solid white; */
+}
+
+main .banner-flex #banner-infobox {
+    width: 560px;
+}
+
+main .banner-flex h1 {
+    margin-bottom: 40px;
+    font-family: BebasNeue-Regular, sans-serif;
+    font-size: 96px;
+    color: white;
+}
+
+main .banner-flex p {
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F9003D;
+}
+
+
+/* sobre */
+main .sobre {
+    padding-top: 40px;
+}
+
+main .sobre h2 {
+    margin-bottom: 40px;
+    font-family: BebasNeue-Regular;
+    font-size: 64px;
+    color: #F9003D;
+}
+
+main .sobre .linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .sobre .linha img {
+    width: 490px;
+}
+
+main .sobre .linha .participantes {
+    width: 590px;
+    /* border: 2px solid yellow; */
+}
+
+main .sobre .linha .participantes h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .sobre .linha .participantes h4 {
+    margin-bottom: 20px;
+    font-family: BebasNeue-Regular;
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+main .sobre .linha .participantes p {
+    font-family: Open-Sans;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer .endereco {
+    background-color: black;
+    color: white;
+}
+
+footer .endereco h1 {
+    font-family: BebasNeue-Regular, sans-serif;
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+footer .endereco p {
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,160 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&family=Titillium+Web:wght@400;600;700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Genéricas */
+.container-grid {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dbdbdb;
+}
+
+/********************** HEADER **********************/
+header {
+    background-color: white;
+}
+header .header-flex {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #BBBBBB;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    width: 100px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition: color .4s, margin .4s;
+}
+
+header nav a:hover {
+    color: #BBBBBB;
+    margin: -2px -2px auto auto;
+}
+
+
+/********************** MAIN **********************/
+
+section.como-ajudamos {
+    
+    height: 563px;
+    margin-top: 135px;
+    margin-bottom: 0;
+    background-color: #282C31;
+    color: white;
+}
+section .como-ajudamos-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .ajuda-box {
+    width: 35%;
+}
+
+section .ajuda-box h2 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: #ae9460;
+}
+
+section .ajuda-box p {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+section .conhecimento-profundo {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px;
+    width: 60%;
+    max-width: 595px;
+    height: 563px;
+    background-color: white;
+    color: #282C31;
+
+    box-shadow: 10px 2px 45px rgba(0, 0, 0, .4);
+}
+
+section .conhecimento-profundo h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight:  700;
+    line-height: 35px;
+}
+
+section .conhecimento-profundo p {
+    margin-top: 40px;
+    line-height: 35px;
+}
+
+
+section .medias {
+    display: flex;
+}
+
+
+section .medias img {
+    /* usar font-awesome */
+    width: 25px;
+    margin-top: 40px;
+    margin-right: 20px;
+    
+    color: white;
+}
+
+/********************** FOOTER **********************/
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333333;
+    padding: 50px 0;
+    color: white;
+}
+
+footer p {
+    width: 400px;
+    margin: 0 auto;
+
+    font-size: 14px;
+    text-align: center;
+}
+
+footer p:first-of-type {
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: #A1D0FB;
+    text-decoration: none;
+}
