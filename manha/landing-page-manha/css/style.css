@@ -19,6 +19,8 @@
     box-sizing: border-box;
 }
 
+/* DESKTOP FIRST */
+
 /* Classes Genéricas */
 
 .layout-grid {
@@ -73,6 +75,9 @@ header nav a:hover {
     color: #F9003D;
 }
 
+header #menu-mobile {
+    display: none;
+}
 
 /* MAIN */
 
@@ -161,14 +166,6 @@ main .sobre .linha .participantes p {
 
 
 
-
-
-
-
-
-
-
-
 footer .endereco {
     background-color: black;
     color: white;
@@ -182,4 +179,26 @@ footer .endereco h1 {
 
 footer .endereco p {
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+/***** MEDIA QUERIES *****/
+
+/* tablets >= 768px até 991px*/
+@media screen and (max-width: 991px) {
+  
+}
+
+/* smartphones >= 0 até 767px */
+@media screen and (max-width: 767px) {
+    header #menu-mobile {
+        display: block;
+        color: white;
+    }
+
+    header nav {
+        display: none;
+    }
 }

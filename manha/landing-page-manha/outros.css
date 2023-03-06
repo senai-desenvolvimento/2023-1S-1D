@@ -1,0 +1,12 @@
+/* Notebooks >= 1200px */
+@media screen and (min-width: 1200px) {
+    h1 {
+        text-align: center;
+    }
+}
+/* Full HD >= 1440px */
+@media screen and (min-width: 1400px) {
+    h1 {
+        text-align: brown;
+    }
+}
