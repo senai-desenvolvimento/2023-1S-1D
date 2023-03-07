@@ -12,6 +12,12 @@
     box-sizing: border-box;
 }
 
+/* Desktop First */
+/* esconde o ícone do hamburger */
+header #menu-hamburger {
+    display: none;
+}
+
 /* apenas para centralizar conteúdos */
 .layout-grid {
     width: 100%;
@@ -57,6 +63,7 @@ header nav a {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 /* ao passar do maouse */
 header nav a:hover {
     background-color: white;
@@ -74,6 +81,7 @@ main .banner {
     background-size: cover;
     background-position: bottom;
 }
+
 main .banner-flex {
     display: flex;
     align-items: center;
@@ -94,7 +102,7 @@ main .banner #bannerinfo h1 {
 
 main .banner #bannerinfo p {
     margin-bottom: 40px;
-   
+
     font-family: 'Courier New', Courier, monospace;
     font-size: 53px;
     font-weight: bold;
@@ -107,6 +115,7 @@ main .banner #bannerinfo p {
 .sobre {
     padding: 60px 0;
 }
+
 .sobre .sobre-flex {
     display: flex;
     justify-content: space-between;
@@ -148,4 +157,42 @@ main .banner #bannerinfo p {
     font-size: 18px;
     line-height: 28px;
     text-align: justify;
+}
+
+
+
+/* smartphone */
+@media screen and (max-width: 767px) {
+    /* main {
+        display: none;
+    } */
+
+
+    header nav {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 80vw;
+        max-width: 360px;
+        height: 100vh;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F9003D;
+    }
+
+
+    header nav a {
+        width: 150px;
+        margin-bottom: 30px;
+        border-left: 2px dashed white;
+        border-radius: 0;
+        font-size: 24px;
+    }
+
+    /* mostra o ícone de barras */
+    header #menu-hamburger {
+        display: block;
+    }
 }

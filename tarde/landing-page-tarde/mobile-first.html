@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* mobile first >= 0px até 767px */
+
+        h1 {
+            color: red;
+        }
+
+
+        @media screen and (min-width: 100px) and (max-width: 450px) {
+            h1 {
+                color: orange;
+            }
+        }
+
+        /* breakpoints - pontos de alteração do layout */
+
+        /* tablets >= 768px até 991px */
+        /* desktops >= 992px até 1199px*/
+        /* notebooks >= 1200px */
+        /* full hd >= 1440px até o infinito */
+
+        /* tablets >= 768px até 991px */
+        @media screen and (min-width: 768px) {
+            h1 {
+                text-align: center;
+                color: blue;
+            }
+        }
+
+        /* desktops >= 992px até 1199px */
+        @media screen and (min-width: 992px) {
+            h1 {
+                color: green;
+            }
+        }
+
+        /* notebooks >= 1200px */
+        @media screen and (min-width: 992px) {
+            h1 {
+                color: green;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Título da Página</h1>
+</body>
+
+</html>
