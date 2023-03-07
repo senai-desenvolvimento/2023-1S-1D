@@ -12,13 +12,13 @@
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <nav id="navmenu">
+            <nav>
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
-            <img src="./assets/icones/menu-hamburger.svg" id="menu-mobile" alt="Abre o menu mobile" onclick="mostrarMenu()" >
+            <img src="./assets/icones/menu-hamburger.svg" id="menu-mobile" alt="Abre o menu mobile">
         </div>
     </header>
 
@@ -60,31 +60,50 @@
             </div>
         </section>
 
+        <section class="local">
+            <div class="layout-grid local-flex">
+                <article>
+                    <h3>Local</h3>
+                    <p>São Paulo</p>
+                </article>
+                <article>
+                    <h3>Local</h3>
+                    <p>São Paulo</p>
+                </article>
+                <article>
+                    <h3>Local</h3>
+                    <p>São Paulo</p>
+                </article>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <!-- <div class="container-grid">
-            <section class="endereco">
+
+        <section class="endereco">
+            <div class="layout-grid">
                 <h1>Endereço:</h1>
-                <p>
-                    Alameda Barão de Limeira, 539
-                    Santa Cecilia, São Paulo - SP
-                    CEP: 01202-001
-    
-                    <img src="./assets/images/mapa.png" alt="">
-                </p>
-            </section>
-            
-            <section class="rights">
+                <div class="endereco-box">
+                    <p>
+                        Alameda Barão de Limeira, 539
+                        Santa Cecilia, São Paulo - SP
+                        CEP: 01202-001
+                    </p>
+                    <img id="mapa" src="./assets/images/mapa.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="rights">
+            <div class="layout-grid">
                 <p>Copyright © 2020 - Escola Senai de Informática</p>
-            </section>
-        </div> -->
+            </div>
+        </section>
+
     </footer>
-    <script>
-        function mostrarMenu() {
-            document.getElementById("navmenu").classList.toggle("mostrarMenu");
-        }
-    </script>
+
 </body>
 
 </html>

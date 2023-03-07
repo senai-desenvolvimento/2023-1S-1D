@@ -120,7 +120,7 @@ main .banner-flex p {
 
 /* sobre */
 main .sobre {
-    padding-top: 40px;
+    padding: 40px 0 60px;
 }
 
 main .sobre h2 {
@@ -165,12 +165,65 @@ main .sobre .linha .participantes p {
 }
 
 
+/* section local */
+main .local {
+    width: 100%;
+    height: 200px;
+    padding: 20px 0;
+    background-image: url(../assets/images/imagem-fundo-info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+main .local .local-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .local .local-flex article {
+    width: 289px;
+}
+main .local .local-flex article h3 {
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+}
+main .local .local-flex article p {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A259F7;
+    border: 1px solid #A259F7;
+    font-size: 28px;
+}
+
+
+/* Footer */
 footer .endereco {
-    background-color: black;
+    padding: 60px 0;
+    background-image: url(../assets/images/imagem-fundo-endereco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
+footer .endereco-flex {
+    background-color: white;
+    color: black;
+}
+footer .endereco-box {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding: 80px;
+    background-color: white;
+    
+}
 footer .endereco h1 {
     font-family: BebasNeue-Regular, sans-serif;
     font-size: 64px;
@@ -178,7 +231,27 @@ footer .endereco h1 {
 }
 
 footer .endereco p {
+    width: 485px;
     font-family: 'Courier New', Courier, monospace;
+    color: #A259F7;
+}
+footer .endereco #mapa {
+    position: absolute;
+    right: 40px;
+    top: -60px;
+}
+
+footer .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    background-color: #F9003D;
+    color: white;
+}
+
+footer .rights p {
+    text-align: center;
 }
 
 
@@ -193,56 +266,12 @@ footer .endereco p {
 
 /* smartphones >= 0 até 767px */
 @media screen and (max-width: 767px) {
-
-    .mostrarMenu {
-        left: 0;
-        opacity: 1;
-    }
-
-    /* temporariamente off */
-    /* main,
-    footer {
-        display: none;
-    } */
-
     header #menu-mobile {
         display: block;
+        color: white;
     }
 
     header nav {
-        position: fixed;
-        top: 60px;
-        left: -80vw;
-        width: 80vw; /* viewport width */
-        height: calc(100vh - 60px);/* viewport height */
-        flex-direction: column;
-        justify-content: space-evenly;
-        background-color: #F9003D;
-        opacity: 0;
-
-        transition: left 0.4s, opacity 0.6s;
-    }
-
-    header nav a {
-        border-left: 2px dotted #ffffff;
-    }
-
-    /* Banner */
-    main .banner-flex {
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 80px;
-    }
-    main .banner-flex h1 {
-        font-size: 40px;
-        text-align: justify;
-        max-width: 260px;
-    }
-    main .banner-flex #banner-infobox {
-        max-width: 355px;
-    }
-    main .banner-flex #banner-infobox img {
         display: none;
     }
-    
 }
