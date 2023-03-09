@@ -1,6 +1,16 @@
 /* imports  */
 
 @font-face {
+    font-family: ABeeZee-Regular;
+    src: url(../assets/fonts/ABeeZee/ABeeZee-Regular.ttf);
+}
+
+@font-face {
+    font-family: Abel-Regular;
+    src: url(../assets/fonts/Abel/Abel-Regular.ttf);
+}
+
+@font-face {
     font-family: BebasNeue-Regular;
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
@@ -28,6 +38,11 @@
     max-width: 1200px;
     margin: 0 auto;
     /* border: 2px solid yellow; */
+}
+
+/* título que só deverar ser exibido no mobile */
+.participantes-up {
+    display: none;
 }
 
 body {
@@ -160,7 +175,7 @@ main .sobre .linha .participantes h4 {
 
 main .sobre .linha .participantes p {
     font-family: Open-Sans;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
 }
 
@@ -177,20 +192,24 @@ main .local {
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
 }
+
 main .local .local-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 main .local .local-flex article {
     width: 289px;
 }
+
 main .local .local-flex article h3 {
     color: white;
     font-size: 24px;
     line-height: 40px;
     font-weight: 500;
 }
+
 main .local .local-flex article p {
     width: 100%;
     height: 100px;
@@ -216,14 +235,16 @@ footer .endereco-flex {
     background-color: white;
     color: black;
 }
+
 footer .endereco-box {
     position: relative;
     width: 100%;
     margin-top: 20px;
     padding: 80px;
     background-color: white;
-    
+
 }
+
 footer .endereco h1 {
     font-family: BebasNeue-Regular, sans-serif;
     font-size: 64px;
@@ -235,6 +256,7 @@ footer .endereco p {
     font-family: 'Courier New', Courier, monospace;
     color: #A259F7;
 }
+
 footer .endereco #mapa {
     position: absolute;
     right: 40px;
@@ -257,21 +279,165 @@ footer .rights p {
 
 
 
-/***** MEDIA QUERIES *****/
+/*************** MEDIA QUERIES ***************/
 
-/* tablets >= 768px até 991px*/
-@media screen and (max-width: 991px) {
-  
-}
+/* tablets >= 768px até 991px */
+@media screen and (max-width: 991px) {}
 
 /* smartphones >= 0 até 767px */
 @media screen and (max-width: 767px) {
+    
+    /* Classes Genéricas */
+    .layout-grid {
+        max-width: 355px;
+    }
+
+    .mostrarMenu {
+        left: 0;
+        opacity: 1;
+    }
+
+    /* HEADER */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        height: 60px;
+    }
+
     header #menu-mobile {
         display: block;
-        color: white;
     }
 
     header nav {
+        position: fixed;
+        top: 60px;
+        left: -80vw;
+        width: 80vw;
+        /* viewport width */
+        height: calc(100vh - 60px);
+        /* viewport height */
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #F9003D;
+        opacity: 0;
+
+        transition: left 0.4s, opacity 0.6s;
+    }
+
+    header nav a {
+        width: 180px;
+        border-left: 2px dashed #ffffff;
+        border-radius: 0;
+        text-align: center;
+    }
+
+    /* MAIN */
+    main {
+        margin-top: 60px;
+    }
+
+    /* BANNER */
+    main .banner {
+        max-height: 528px;
+        background-image: url(../assets/images/imagem-sessao-sobre-mobile.png);
+        background-position: right;
+    }
+
+    main .banner-flex {
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 80px;
+    }
+
+    main .banner-flex h1 {
+        font-size: 40px;
+        text-align: justify;
+        max-width: 260px;
+    }
+
+    main .banner-flex p {
+        font-family: ABeeZee-Regular;
+        font-weight: 400;
+    }
+
+    main .banner-flex #banner-infobox {
+        max-width: 355px;
+    }
+
+    main .banner-flex #banner-infobox img {
         display: none;
     }
-}
+
+
+    /* SOBRE */
+    main .sobre h2 {
+        font-size: 35px;
+    }
+
+    /* exibe o texto participantes junto com o título SOBRE OS PROJETOS */
+    .participantes-up {
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    main .sobre .linha {
+
+        flex-direction: column;
+    }
+
+    main .sobre .linha img {
+        max-width: 365px;
+    }
+
+    main .sobre .linha .participantes {
+        width: 100%;
+    }
+
+    main .sobre .linha .participantes h4 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    main .sobre .linha .participantes h3 {
+        display: none;
+    }
+
+    /* LOCAL */
+    main .local {
+        height: auto;
+        /* Retira a imagem de fundo */
+        background-image: none;
+    }
+
+    main .local .local-flex {
+        flex-direction: column;
+    }
+    footer .endereco h1 {
+        font-size: 40px;
+    }
+
+    footer .endereco-box {
+        padding: 25px 20px;
+        background-color: transparent;
+        border: 1px solid #340B65;
+    }
+    footer .endereco p {
+        font-family: Abel-Regular;
+        width: 100%;
+        max-width: 300px;
+        font-size: 24px;
+    }
+    footer .endereco #mapa {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+ } /* FIM DA MEDIA QUERIE DO MOBILE */

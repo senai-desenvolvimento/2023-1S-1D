@@ -12,13 +12,13 @@
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <nav>
+            <nav id="navmenu">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
-            <img src="./assets/icones/menu-hamburger.svg" id="menu-mobile" alt="Abre o menu mobile">
+            <img src="./assets/icones/menu-hamburger.svg" id="menu-mobile" alt="Abre o menu mobile" onclick="mostrarMenu()" >
         </div>
     </header>
 
@@ -37,6 +37,7 @@
         <section class="sobre">
             <div class="layout-grid">
                 <h2>Sobre os Projetos</h2>
+                <h3 class="participantes-up">Participantes</h3>
 
                 <div class="linha">
                     <img src="./assets/images/imagem-sessao-sobre.png"
@@ -103,6 +104,13 @@
         </section>
 
     </footer>
+
+
+    <script>
+        function mostrarMenu() {
+            document.getElementById("navmenu").classList.toggle("mostrarMenu");
+        }
+    </script>
 
 </body>
 
