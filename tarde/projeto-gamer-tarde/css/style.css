@@ -8,12 +8,56 @@
     box-sizing: border-box;
 }
 
+/* Classes Genéricas */
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid salmon;
+}
+
+/* justify content + align items */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 body {
     color: white;
 }
+/* Mobile First */
 
 /* HEADER */
 header {
+    height: 60px;
     background-color: #1B1426;
+}
 
+header .header-top {
+    display: none;
+}
+
+header .header-bottom {
+    height: 60px;
+}
+header .logo {
+    width: 86px;
+}
+
+header nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+
+}
+header .menu-usuarios {
+    display: none;
 }
