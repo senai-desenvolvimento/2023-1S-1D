@@ -35,7 +35,7 @@
 
 .layout-grid {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
     /* border: 2px solid yellow; */
 }
@@ -53,15 +53,32 @@ body {
 /* HEADER */
 
 header {
-    height: 60px;
+    height: 100px;
     background-color: #F9003D;
+    
 }
 
+
 header .header-flex {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
     height: 100%;
+}
+
+/* logotipo */
+header .logo {
+    width: 220px;
+    height: 80px;
+    position: absolute;
+    bottom: calc(0px - 40px);
+    left: 0;
+    border-radius: 5px;
+    transform: rotate( -10deg);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.2);
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    padding: 10px;
 }
 
 header nav {
@@ -286,7 +303,7 @@ footer .rights p {
 
 /* smartphones >= 0 até 767px */
 @media screen and (max-width: 767px) {
-    
+
     /* Classes Genéricas */
     .layout-grid {
         max-width: 355px;
@@ -305,6 +322,10 @@ footer .rights p {
         z-index: 10;
         width: 100%;
         height: 60px;
+    }
+
+    header .logo {
+        width: 160px;
     }
 
     header #menu-mobile {
@@ -419,6 +440,7 @@ footer .rights p {
     main .local .local-flex {
         flex-direction: column;
     }
+
     footer .endereco h1 {
         font-size: 40px;
     }
@@ -428,16 +450,20 @@ footer .rights p {
         background-color: transparent;
         border: 1px solid #340B65;
     }
+
     footer .endereco p {
         font-family: Abel-Regular;
         width: 100%;
         max-width: 300px;
         font-size: 24px;
     }
+
     footer .endereco #mapa {
         position: static;
         width: 100%;
         margin-top: 20px;
     }
 
- } /* FIM DA MEDIA QUERIE DO MOBILE */
+}
+
+/* FIM DA MEDIA QUERIE DO MOBILE */
