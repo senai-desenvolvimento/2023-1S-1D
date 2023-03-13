@@ -1,7 +1,15 @@
 /* imports das fontes */
+
+/* TITILLIUM WEB */
 @font-face {
     font-family: TitilliumWeb-Black;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+/* INTER */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 * {
@@ -10,4 +18,111 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #ffffff;
+}
+
+/* Classes genéricas */
+.mostrar-menu {
+    left: 0;
+}
+.layout-grid {
+    border: 1px solid salmon;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* justify content + align items */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Mobile First */
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100vw;
+    height: 60px;
+    background-color: #1B1426;
+}
+
+/* Header Top */
+header .header-top {
+    display: none;
+}
+
+/* Header Bottom */
+
+
+header .header-bottom {
+    height: 100%;
+}
+
+header .header-bottom img.logo {
+    width: 86px;
+}
+
+header .header-bottom nav {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    width: 80vw;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+}
+
+/* somente links "filhos diretos" */
+header .header-bottom nav > a {
+    padding: 30px 0;
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid #F9AA01;
+}
+
+header .header-bottom nav > a:last-of-type {
+    border-bottom: none;
+}
+
+/* ícone de mídias sociais possibilidade position 
+header .header-bottom nav .midias-sociais {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 100px);
+    border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+
+header .header-bottom nav .midias-sociais {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    /* gap é o espaçamento entre os elementos, funciona em linha e também em coluna. */
+    gap: 50px;
+}
+
+/* menu lateral direito - ícones */
+header .header-bottom .menu-usuarios {
+    display: none;
+}
