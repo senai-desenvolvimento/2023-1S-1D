@@ -5,6 +5,10 @@
     font-family: TitilliumWeb-Black;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
 
 /* INTER */
 @font-face {
@@ -25,6 +29,9 @@ body {
 /* Classes genéricas */
 .mostrar-menu {
     left: 0 !important;
+}
+.mostrar-usuarios {
+    right: 0 !important;
 }
 .layout-grid {
     /* border: 1px solid salmon; */
@@ -126,5 +133,61 @@ header .header-bottom nav .midias-sociais {
 
 /* menu lateral direito - ícones */
 header .header-bottom .menu-usuarios {
-    display: none;
+    position: fixed;
+    top: 60px;
+    right: -19vw;
+    width: 19vw;
+    height: 170px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    transition: right 0.4s;
+}
+
+/* MAIN */
+main {
+    margin-top: 60px;
+}
+/* Banner */
+.banner {
+    width: 100%;
+    height: 606px;
+    padding: 40px 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rebeccapurple;
+    background-image: url(../assets/images/fundo-banner-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.banner h1 {
+    font-family: TitilliumWeb-Black;
+    font-size: 40px;
+    text-shadow: 0 0 7px #FD4255;
+    
+}
+
+.banner .botao-sobre {
+    width: 171px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9AA01;
+    color: #1B1426;
+    text-decoration: none;
+    font-family: TitilliumWeb-Bold;
+    font-size: 24px;
+    border-radius: 8px;
 }
