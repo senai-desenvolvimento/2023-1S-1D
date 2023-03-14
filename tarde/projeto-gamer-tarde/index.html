@@ -42,26 +42,26 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- Menu Hamburger. Visível apenas no smartphone -->
-                <img src="assets/icons/bars.svg" alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
+                <img onclick="mostrarMenu()" src="assets/icons/bars.svg" alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
 
                 <img class="logo" src="assets/images/logotipo-gamer.svg"
                     alt="Imagem logotipo gamer com um controle de vídeo game ao centro">
 
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
                     <a href="">Notícias</a>
 
                     <!-- vísível apenas no mobile -->
-                    <div class="phone">
+                    <a class="phone">
                         <img src="assets/icons/icone_telefone.svg" alt="Ícone do telefone de contato">
                         <p>(11) 0900-1010</p>
-                    </div>
-                    <div class="mail">
+                    </a>
+                    <a class="mail">
                         <img src="assets/icons/icone_email.svg" alt="Ícone de email de contato">
                         <p>contato@gamer.com.br</p>
-                    </div>
+                    </a>
 
 
                     <div class="midias-sociais">
@@ -78,9 +78,9 @@
                 </nav>
 
                 <!-- menu 3 pontinhos -->
-                <img src="assets/icons/pointers.svg" alt="Ícone 3 pontinhos, abre e fecha o menu de usuários">
+                <img onclick="mostrarUsuarios()" src="assets/icons/pointers.svg" alt="Ícone 3 pontinhos, abre e fecha o menu de usuários">
 
-                <div class="menu-usuarios">
+                <div id="menu-usuarios"  class="menu-usuarios" >
                     <a href="">
                         <img src="assets/icons/user.svg" alt="Ícone de perfil">
                     </a>
@@ -94,6 +94,22 @@
             </div>
         </div>
     </header>
+
+
+
+
+    <script>
+        
+        function mostrarMenu() {
+            // pega a navbar pelo id
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+
+        function mostrarUsuarios() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-usuarios");
+        }
+        
+    </script>
 </body>
 
 </html>
