@@ -5,6 +5,7 @@
     font-family: TitilliumWeb-Black;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
+
 @font-face {
     font-family: TitilliumWeb-Bold;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
@@ -30,9 +31,11 @@ body {
 .mostrar-menu {
     left: 0 !important;
 }
+
 .mostrar-usuarios {
     right: 0 !important;
 }
+
 .layout-grid {
     /* border: 1px solid salmon; */
     width: 90%;
@@ -94,7 +97,7 @@ header .header-bottom nav {
 }
 
 /* somente links "filhos diretos" */
-header .header-bottom nav > a {
+header .header-bottom nav>a {
     padding: 30px 0;
     color: white;
     font-family: Inter;
@@ -105,7 +108,7 @@ header .header-bottom nav > a {
     border-bottom: 2px solid #F9AA01;
 }
 
-header .header-bottom nav > a:last-of-type {
+header .header-bottom nav>a:last-of-type {
     border-bottom: none;
 }
 
@@ -140,7 +143,7 @@ header .header-bottom .menu-usuarios {
     height: 170px;
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(45px);
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -153,12 +156,13 @@ header .header-bottom .menu-usuarios {
 main {
     margin-top: 60px;
 }
+
 /* Banner */
 .banner {
     width: 100%;
     height: 606px;
     padding: 40px 0;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -175,7 +179,7 @@ main {
     font-family: TitilliumWeb-Black;
     font-size: 40px;
     text-shadow: 0 0 7px #FD4255;
-    
+
 }
 
 .banner .botao-sobre {
@@ -190,4 +194,69 @@ main {
     font-family: TitilliumWeb-Bold;
     font-size: 24px;
     border-radius: 8px;
+}
+
+/* Sessão Jogos */
+main .jogos {
+    width: 100%;
+    height: 590px;
+    background-color: #1B1426;
+}
+
+main .jogos .jogos-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* vertical - column */
+    align-items: center;
+}
+
+/* Tablets >= 768px*/
+@media screen and (min-width: 768px) {}
+
+/* Desktops >= 1200px*/
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+        border: 3px dotted yellowgreen;
+    }
+
+    /* HEADER  */
+    header {
+        position: static;
+        height: 140px;
+    }
+
+    header .menu-hamburger,
+    header .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+    header .header-bottom img.logo {
+        width: 200px;
+    }
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        background-color: red;
+    }
+
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        flex-direction: row;
+        width: 180px;
+        height: 50px;
+        background-color: transparent;
+    }
+
+    /* MAIN */
+    main {
+        margin-top: 0;
+    }
 }
