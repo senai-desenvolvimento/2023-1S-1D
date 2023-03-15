@@ -42,7 +42,8 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- Menu Hamburger. Visível apenas no smartphone -->
-                <img onclick="mostrarMenu()" src="assets/icons/bars.svg" alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="assets/icons/bars.svg"
+                    alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
 
                 <img class="logo" src="assets/images/logotipo-gamer.svg"
                     alt="Imagem logotipo gamer com um controle de vídeo game ao centro">
@@ -78,9 +79,10 @@
                 </nav>
 
                 <!-- menu 3 pontinhos -->
-                <img onclick="mostrarUsuarios()" src="assets/icons/pointers.svg" alt="Ícone 3 pontinhos, abre e fecha o menu de usuários">
+                <img class="menu-pontinhos" onclick="mostrarUsuarios()" src="assets/icons/pointers.svg"
+                    alt="Ícone 3 pontinhos, abre e fecha o menu de usuários">
 
-                <div id="menu-usuarios"  class="menu-usuarios" >
+                <div id="menu-usuarios" class="menu-usuarios">
                     <a href="">
                         <img src="assets/icons/user.svg" alt="Ícone de perfil">
                     </a>
@@ -95,11 +97,27 @@
         </div>
     </header>
 
+    <main>
+        <article class="banner">
+            <h1>Liga Gamers</h1>
+            <a href="" class="btn-sobre">Sobre</a>
+        </article>
 
+
+        <section class="jogos">
+            <div class="layout-grid jogos-flex">
+                <img src="assets/images/fifa23.png" alt="Imagem do jogo Fifa 2023">
+                <img src="assets/images/csgo.png" alt="Imagem do jogo Counter Strike">
+            </div>
+
+        </section>
+    </main>
+
+    <footer></footer>
 
 
     <script>
-        
+
         function mostrarMenu() {
             // pega a navbar pelo id
             document.getElementById("menu").classList.toggle("mostrar-menu");
@@ -108,7 +126,7 @@
         function mostrarUsuarios() {
             document.getElementById("menu-usuarios").classList.toggle("mostrar-usuarios");
         }
-        
+
     </script>
 </body>
 

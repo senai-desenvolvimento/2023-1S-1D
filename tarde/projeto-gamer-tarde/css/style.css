@@ -3,6 +3,17 @@
     font-family: Inter;
     src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
 /* Reset CSS */
 
 * {
@@ -44,6 +55,8 @@ body {
 /* HEADER */
 header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 60px;
     z-index: 100;
@@ -81,7 +94,7 @@ header .header-bottom nav {
 }
 
 
-header .header-bottom nav > a {
+header .header-bottom nav>a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,10 +133,100 @@ header .menu-usuarios {
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(45px);
 
-    transition: right 0.4s;    
+    transition: right 0.4s;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+
+/* MAIN */
+
+main {
+    margin-top: 60px;
+}
+
+/* Banner */
+
+main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 606px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-image: url(../assets/images/fundo-banner-mobile.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+main .banner h1 {
+    font-family: TitilliumWeb-Black;
+    font-size: 40px;
+    text-shadow: 0 0 7px #FD4255;
+}
+
+main .banner a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    font-family: TitilliumWeb-Bold;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: #F9AA01;
+    border-radius: 8px;
+}
+
+/* Sessão Jogos */
+
+main .jogos {
+    width: 100%;
+    height: 590px;
+    background-color: #1B1426;
+}
+
+main .jogos .jogos-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* Tablets >= 768px */
+@media screen and (min-width: 768px) {}
+
+/* Desktop >= 1200px*/
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    /* esconde os elementos desnecessários */
+    header .header-bottom .menu-hamburger,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .mail,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        background-color: red;
+        justify-content: space-between;
+    }
 }
