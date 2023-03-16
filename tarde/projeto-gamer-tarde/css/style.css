@@ -210,6 +210,38 @@ main .jogos .jogos-flex {
         max-width: 1200px;
     }
 
+    /* header */
+    header {
+        height: 140px;
+    }
+
+    header .header-top {
+        display: block;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .contatos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+        border: 2px solid #FD4255;
+    }
+
+    /* divs .phone, .mail */
+    header .header-top .contatos > div {
+        display: flex;
+        gap: 10px;
+        width: 200px;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+
+    header .header-top .midias-sociais {
+        width: 140px;
+        border: 2px solid #FD4255;
+    }
+
     /* esconde os elementos desnecessários */
     header .header-bottom .menu-hamburger,
     header .header-bottom .menu-pontinhos,
@@ -219,14 +251,32 @@ main .jogos .jogos-flex {
         display: none;
     }
 
-
+    header .logo {
+        width: 200px;
+    }
     header .header-bottom nav {
         position: static;
         width: 440px;
         height: 50px;
+        padding-bottom: 0;
         flex-direction: row;
         align-items: center;
-        background-color: red;
+        /* background-color: red; */
         justify-content: space-between;
+    }
+
+    header .header-bottom nav > a {
+        font-size: 14px;
+        padding: 0;
+        border: none;
+    }
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
     }
 }
