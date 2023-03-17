@@ -108,6 +108,11 @@ header .header-bottom nav>a {
     border-bottom: 2px solid #F9AA01;
 }
 
+header .header-bottom nav>a:hover {
+    background-color: #F9AA01;
+    
+}
+
 header .header-bottom nav>a:last-of-type {
     border-bottom: none;
 }
@@ -219,7 +224,7 @@ main .jogos .jogos-flex {
     .layout-grid {
         width: 100%;
         max-width: 1200px;
-        border: 3px dotted yellowgreen;
+        /* border: 3px dotted yellowgreen; */
     }
 
     /* HEADER  */
@@ -228,6 +233,43 @@ main .jogos .jogos-flex {
         height: 140px;
     }
 
+    /* Header Top */
+    header .header-top {
+        /* block é o valor default da maioria dos elementos */
+        display: block;
+        height: 50px;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .contatos {
+        width: 415px;
+        display: flex;
+        justify-content: space-between;
+
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+
+        /* border: 2px solid white; */
+    }
+
+    header .header-top .contatos > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        /* border: 1px solid yellow; */
+    }
+
+    header .header-top .midias-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid white; */
+    }
+
+    /* Esconde elementos desnecessários */
     header .menu-hamburger,
     header .menu-pontinhos,
     header .header-bottom nav .phone,
@@ -235,28 +277,69 @@ main .jogos .jogos-flex {
     header .header-bottom nav .midias-sociais {
         display: none;
     }
+
+    /* Header Bottom */
+    header .header-bottom {
+        height: 90px;
+    }
+
     header .header-bottom img.logo {
         width: 200px;
     }
+
     header .header-bottom nav {
         position: static;
         width: 440px;
         height: 50px;
+        padding: 0;
         flex-direction: row;
-        background-color: red;
+        align-items: center;
+        /* background-color: red; */
     }
 
+    header .header-bottom nav>a {
+        border: none;
+        font-size: 14px;
+    }
+
+    header .header-bottom nav>a:hover {
+        background-color: transparent;
+        color: #F9AA01;
+    }
 
     header .header-bottom .menu-usuarios {
         position: static;
         flex-direction: row;
-        width: 180px;
-        height: 50px;
+        justify-content: space-between;
+        width: 120px;
+        height: auto;
         background-color: transparent;
     }
 
     /* MAIN */
     main {
         margin-top: 0;
+    }
+
+    /* Banner */
+    main .banner {
+        height: 722px;
+        /* alterar a imagem de fundo */
+        background-image: url(../assets/images/fundo-banner-desktop.png);
+        background-size: cover;
+        background-position: top;
+
+    }
+    
+    main .banner h1 {
+        font-size: 80px;
+    }
+
+    /* Sessão de Jogos */
+    main .jogos {
+        height: 500px;
+    }
+    main .jogos .jogos-flex {
+        flex-direction: row;
     }
 }
