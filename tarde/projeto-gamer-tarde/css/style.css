@@ -212,11 +212,13 @@ main .jogos .jogos-flex {
 
     /* header */
     header {
+        position: static;
         height: 140px;
     }
 
     header .header-top {
         display: block;
+        height: 50px;
         border-bottom: 2px solid #F9AA01;
     }
 
@@ -225,7 +227,7 @@ main .jogos .jogos-flex {
         justify-content: space-between;
         align-items: center;
         width: 450px;
-        border: 2px solid #FD4255;
+        /* border: 2px solid #FD4255; */
     }
 
     /* divs .phone, .mail */
@@ -233,13 +235,14 @@ main .jogos .jogos-flex {
         display: flex;
         gap: 10px;
         width: 200px;
-        border-bottom: 2px solid #F9AA01;
+        /* border-bottom: 2px solid #F9AA01; */
     }
-
 
     header .header-top .midias-sociais {
         width: 140px;
-        border: 2px solid #FD4255;
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid #FD4255; */
     }
 
     /* esconde os elementos desnecessários */
@@ -254,6 +257,7 @@ main .jogos .jogos-flex {
     header .logo {
         width: 200px;
     }
+
     header .header-bottom nav {
         position: static;
         width: 440px;
@@ -265,7 +269,7 @@ main .jogos .jogos-flex {
         justify-content: space-between;
     }
 
-    header .header-bottom nav > a {
+    header .header-bottom nav>a {
         font-size: 14px;
         padding: 0;
         border: none;
@@ -278,5 +282,10 @@ main .jogos .jogos-flex {
         height: auto;
         background-color: transparent;
         background-image: none;
+    }
+
+    /* MAIN */
+    main {
+        margin-top: 0;
     }
 }
