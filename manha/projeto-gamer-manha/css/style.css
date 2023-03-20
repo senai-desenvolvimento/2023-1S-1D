@@ -11,10 +11,21 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
 /* INTER */
 @font-face {
     font-family: Inter;
     src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* QUICKSAND */
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
 * {
@@ -110,7 +121,7 @@ header .header-bottom nav>a {
 
 header .header-bottom nav>a:hover {
     background-color: #F9AA01;
-    
+
 }
 
 header .header-bottom nav>a:last-of-type {
@@ -216,6 +227,151 @@ main .jogos .jogos-flex {
     align-items: center;
 }
 
+/* Footer */
+footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    box-shadow: inset 0 30px 60px rgba(0, 0, 0, 1);
+    background-image: url(../assets/images/fundo-footer-mobile.png);
+    background-position: top;
+    background-size: contain;
+}
+
+footer #sobre {
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(250, 128, 114, .3); */
+}
+footer #sobre > img { width: 110px; }
+
+footer #sobre p {
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer #midias-sociais-footer {
+    /* background-color: #FD4255; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1530px;
+}
+/* apagar */
+footer .footer-top > div {
+    border: 2px solid white;
+}
+
+footer .footer-top .titulos-footer h3 {
+    font-family: TitilliumWeb-Black;
+    font-size: 30px;
+}
+
+footer .footer-top .titulos-footer hr {
+    border: 2px solid #F9AA01;
+    width: 112px;
+}
+
+/* lista ul */
+footer .footer-top .menu-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+/* ítens da lista */
+footer .footer-top .menu-footer li {
+    list-style-type: none;
+    width: 110px;
+    margin-bottom: 20px;
+    /* border: 1px solid #FD4255; */
+}
+footer .footer-top .menu-footer a {
+    color: white;
+    text-decoration: none;
+    font-family: TitilliumWeb-Bold;
+    font-size: 16px;
+}
+
+footer .footer-top .menu-footer a:before {
+    content: "\2015";
+    margin-right: 10px;
+    color: #F9AA01;
+}
+
+/* Contatos */
+
+footer .footer-top #contatos {
+    color: white;
+    font-family: TitilliumWeb-Bold;
+    font-size: 16px;
+}
+
+footer .footer-top #contatos p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+footer .footer-top #contatos p span {
+    color: #F9AA01;
+}
+
+/* newsletter */
+
+footer #newsletter input,
+footer #newsletter button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer #newsletter input {
+    background-color: transparent;
+    background-image: linear-gradient(to right bottom, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
+    backdrop-filter: blur(6px);
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    font-family: TitilliumWeb-Regular;
+    font-size: 16px;
+}
+
+footer #newsletter input::placeholder {
+    color: white;
+}
+
+footer #newsletter button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9AA01;
+    font-family: TitilliumWeb-Bold;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tablets >= 768px*/
 @media screen and (min-width: 768px) {}
 
@@ -253,7 +409,7 @@ main .jogos .jogos-flex {
         /* border: 2px solid white; */
     }
 
-    header .header-top .contatos > div {
+    header .header-top .contatos>div {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -330,7 +486,7 @@ main .jogos .jogos-flex {
         background-position: top;
 
     }
-    
+
     main .banner h1 {
         font-size: 80px;
     }
@@ -339,7 +495,13 @@ main .jogos .jogos-flex {
     main .jogos {
         height: 500px;
     }
+
     main .jogos .jogos-flex {
         flex-direction: row;
     }
+
+    main .jogos .jogos-flex img {
+        width: 555px;
+    }
+
 }
