@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* formulário */
+        .login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60vh;
+            height: 90vh;
+            margin: 0 auto;
+            background-image: url(assets/images/fundo-login-mobile.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            position: relative;
+            z-index: 0;
+        }
+
+        .login::before {
+            content: "Eduardo Costa";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 1;
+            background-color: salmon;
+            backdrop-filter: blur(4px);
+            color: white;
+
+        }
+
+        .linha {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 10px;
+            width: 80%;
+            height: 40px;
+            background-color: rgb(244, 194, 194);
+            border-radius: 8px;
+        }
+
+        .linha input {
+            width: 100%;
+            height: 35px;
+            border: none;
+            background-color: transparent;
+            outline: none;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            text-transform: lowercase;
+        }
+
+        .linha input::placeholder {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+            Pseudo-elemento é uma palavra chave, adicionada ao elemento principal, que representa parte deste elemento
+        -->
+    <!-- Before ou After representa parte do content. Dentro dele!! -->
+    <form action="" class="login">
+
+        <div class="linha">
+            <img src="./assets/icons/user.svg" alt="">
+            <input type="email" placeholder="Login">
+        </div>
+
+    </form>
+</body>
+
+</html>
