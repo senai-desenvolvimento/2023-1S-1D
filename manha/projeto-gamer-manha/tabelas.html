@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+        }
+        table{
+            width: 50%;
+            margin: 20px auto 0;
+            border: 1px solid black;
+        }
+        table  th {
+            border: 1px solid red;
+            text-align: center;
+        }
+        table tbody td {
+            border-right: 2px solid green;
+        }
+        table tbody td:last-of-type {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Equipes</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Foto</th>
+                <th>&clubs;</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Eduardo</td>
+                <td>
+                    <img src="./assets/icons/PERSON.svg" alt=""> 
+                </td>
+                <td>
+                    <img src="./assets/icons/DELETE.svg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria</td>
+                <td>
+                    <img src="./assets/icons/PERSON.svg" alt=""> 
+                </td>
+                <td>
+                    <img src="./assets/icons/DELETE.svg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Joana Dark</td>
+                <td>
+                    <img src="./assets/icons/PERSON.svg" alt=""> 
+                </td>
+                <td><img src="./assets/icons/DELETE.svg" alt=""></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total: </td>
+                <td>Total: </td>
+            </tr>   
+        </tfoot>
+    </table>
+</body>
+</html>

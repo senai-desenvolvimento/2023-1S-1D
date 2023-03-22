@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    
+    <h1>Cadastro de Usuários</h1>
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Seu nome">
+        <br>
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" value="">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <br>
+
+        <label for="estado">Estado</label>
+        <select id="estado">
+            <option value="">Escolha</option>
+            <option value="sp">São Paulo</option>
+            <option value="bh">Belo Horizonte</option>
+            <option value="ba">Bahia</option>
+        </select>
+        <br>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+        <button type="button"  onclick="olhinho()" > ;) </button>
+        
+
+        <br><br>    
+        <button>Enviar</button>
+    </form>
+
+
+   <script>
+    let senhaExibida = false;
+
+    function olhinho() {
+        if(senhaExibida == false){
+            document.getElementById("senha").type = "text";
+            senhaExibida = true;
+        } else {
+            document.getElementById("senha").type = "password";
+            senhaExibida = false;
+        }
+    }
+   </script>
+</body>
+</html>
