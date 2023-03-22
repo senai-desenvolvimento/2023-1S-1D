@@ -1,0 +1,693 @@
+/* TitilliumWeb */
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-SemiBold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+/* Inter */
+@font-face {
+    font-family: Inter-Thin;
+    src: url(../assets/fonts/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../assets/fonts/Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-SemiBold;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Bold.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    color: white;
+    background-color: #1B1426;
+}
+
+
+/* Mobiel First */
+
+/* Generals */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+/********************* Header *********************/
+header {
+    position: fixed;
+    /* apenas para referência dos menus */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    background-color: #1B1426;
+    font-size: 16px;
+}
+
+header .container-grid {
+    width: 100%;
+}
+
+/* fixar o label por causa do alinhamento, efeito do inline +- 4px */
+header label {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* esconde os elementos desnecessários no mobile */
+header .header-top,
+header h1 .title,
+.mostra-esconde-icones,
+header #mostra-esconde-navmenu,
+header #mostra-esconde-icones {
+    display: none;
+}
+
+.header-flex {
+
+}
+
+header .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-bottom #logotipo {
+    width: 120px;
+}
+
+
+
+/* mostra esconde menu social */
+header #mostra-esconde-navmenu:checked~.nav-bkg {
+    left: 1px;
+}
+
+header .nav-bkg {
+    position: fixed;
+    top: 60px;
+    left: -300px;
+    /* z-index: 2; */
+    width: 270px;
+    height: calc(100vh - 60px);
+    /* apagar */
+    padding: 1px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .3), rgba(255, 255, 255, .05));
+    transition: left 0.4s;
+    border-radius: 5px;
+    /* border: 2px solid yellow; */
+}
+
+.header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, .5), rgba(27, 20, 38, .05));
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.header nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 40px 0;
+    color: white;
+    font-family: Inter-Regular;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 2px solid #F9AA01;
+    transition: background-color .4s;
+}
+
+.header nav a:hover {
+    background-color: #F9AA01;
+    border-bottom: 2px solid #1B1426;
+}
+
+/* aqui depois trocar para o link:active */
+.header nav a:last-of-type {
+    border-bottom: none;
+}
+
+/* formatação nos dois últimos links - contato */
+.header nav a.phone-box,
+.header nav a.mail-box {
+    font-size: 10px;
+}
+
+.header nav a.phone-box>img,
+.header nav a.mail-box>img {
+    width: 18px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+
+.header nav .social-box {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.header nav .social-box img {
+    margin-right: 25px;
+}
+
+.header nav .social-box img:last-of-type {
+    margin-right: 0;
+}
+
+
+/* mostra esconde menu social */
+header #mostra-esconde-icones:checked~.icons-header-bkg {
+    right: 1px;
+}
+
+/* Menu social do cabeçalho */
+header .icons-header-bkg {
+    position: absolute;
+    top: 60px;
+    right: -70px;
+    width: 66px;
+    height: 170px;
+    padding: 1px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .05));
+    border-radius: 5px;
+    transition: right 0.4s;
+}
+
+header .icons-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, .5), rgba(27, 20, 38, .05));
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+}
+
+header .icons-header img {
+    width: 20px;
+}
+
+
+/********************* Banner *********************/
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+    height: 606px;
+    background-image: url(../images/Banner_Liga-Game-Mobile.png);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.banner h2 {
+    font-family: TitilliumWeb-Black;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 8px #EC4358;
+}
+
+.banner a.btn-sobreliga {
+    width: 150px;
+    margin-bottom: 65px;
+    padding: 5px 0;
+    font-family: TitilliumWeb-SemiBold;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #F9AA01;
+    border: 1px solid #F9AA01;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+/********************* Jogos *********************/
+
+section.card-jogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 10px;
+}
+
+section.card-jogos>img {
+    max-width: 335px;
+}
+
+section.card-jogos>img:first-of-type {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/********************* Time Progamer *********************/
+section.progamer {
+    /* apenas para visualizar o box, pois o fundo é transparente */
+    background-color: #F9AA01;
+}
+
+section.progamer .progamer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+}
+
+section.progamer h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: TitilliumWeb-Black;
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+}
+
+section.progamer hr {
+    width: 50%;
+    margin: 0 auto 60px;
+    border: 1px solid #000;
+}
+
+/* efeito borda gradient */
+section.progamer .gamers {
+    /* para servir de referência ao absolute */
+    position: relative;
+    margin-bottom: 20px;
+    /* border: 1px solid #EC4358; */
+}
+
+section.progamer .progamer-flex .gamers>img {
+    width: 314px;
+}
+
+
+section.progamer .progamer-flex .gamers #jogos-diferentes {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+}
+
+section.progamer .progamer-flex .gamers #professores {
+    position: absolute;
+    top: 110px;
+    left: 0;
+}
+
+section.progamer .gamers .card-bkg .card-jogos {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    max-width: 231px;
+    height: 300px;
+    padding: 25px;
+    font-size: .8rem;
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, .2), rgba(47, 7, 109, .83));
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+section.progamer .card-bkg .card-jogos h3 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: TitilliumWeb-Black;
+    /* text-shadow: 0 0 0px #fff; */
+    text-align: justify;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.cards-progamer-layer .card-bkg .card-jogos p {
+    font-family: Inter-Thin;
+    text-align: justify;
+}
+
+
+
+
+/********************* Notícias *********************/
+
+section.noticias {
+    background-image: url(../images/backgrund_notícias-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 20px 20px;
+}
+
+section.noticias .noticias-flex {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+section.noticias .noticias-flex>div {
+    width: 100%;
+    /* border: 1px solid yellowgreen; */
+}
+
+section.noticias div h2 {
+    width: 100%;
+    text-align: center;
+    font-family: TitilliumWeb-Black;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+section.noticias div hr {
+    width: 50%;
+    margin: 30px auto 80px;
+    border: 1px solid #F9AA01;
+}
+
+/* card notícia */
+section.noticias .card-noticia {
+    max-width: 335px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right bottom, rgba(37, 26, 52, .34), rgba(5, 1, 12, .79));
+    border-radius: 8px;
+}
+
+section.noticias .card-noticia>img {
+    width: 100%;
+}
+
+section.noticias .card-noticia h3 {
+    margin: 20px 10px;
+
+    font-family: TitilliumWeb-Bold;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+section.noticias .card-noticia p {
+    margin: 20px 10px;
+    font-family: Inter-Thin;
+    text-align: justify;
+
+}
+
+
+
+
+/********************* Footer *********************/
+footer {
+    padding: 40px 20px;
+    background-color: #1B1426;
+    background-image: url(../images/backgroung_footer.png);
+    box-shadow: inset 0 30px 20px rgba(0, 0, 0, 0.8);
+}
+
+footer .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .card-ftitem-box {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 50px;
+    /* border: 1px solid white; */
+}
+
+footer .card-ftitem-box #ftlogo-link {
+    width: 120px;
+    margin-bottom: 20px;
+    align-self: center;
+    /* border: 1px solid green; */
+}
+
+footer .card-ftitem-box #ftlogo {
+    width: 120px;
+    margin: 0 auto;
+}
+
+footer .card-ftitem-box h2 {
+    font-family: TitilliumWeb-Bold;
+    font-size: 2rem;
+}
+
+footer .card-ftitem-box hr {
+    width: 30%;
+    border: 1px solid #F9AA01;
+    margin-bottom: 30px;
+}
+
+footer .card-ftitem-box p {
+    margin-bottom: 20px;
+    font-family: Inter-Thin;
+    text-align: justify;
+}
+
+footer .card-ftitem-box .social-fticons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .card-ftitem-box .social-fticons img {
+    width: 40px;
+}
+
+footer .menu-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .menu-ftitem {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+}
+
+/* footer .menu-ftitem:last-of-type {
+    background-color: #EC4358;
+    
+} */
+
+footer .menu-ftitem::before {
+    content: "\2015";
+    margin-right: 10px;
+    color: #F9AA01;
+}
+
+footer .menu-ftitem a {
+    font-size: 1rem;
+    font-family: Inter-Regular;
+    text-decoration: none;
+    line-height: 2rem;
+    color: white;
+}
+
+
+
+footer a {
+    font-family: Quicksand-Regular;
+    text-decoration: none;
+    color: white;
+}
+
+footer p.contact-title {
+    margin-bottom: 10px;
+    font-family: Quicksand-Bold;
+    color: #F9AA01;
+    /* border: 1px solid white; */
+}
+
+footer p.contact-text {
+    margin-bottom: 10px;
+    font-family: Quicksand-Regular;
+}
+
+footer .frm-news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .input-box {
+    width: 100%;
+    height: 40px;
+    padding: 1px;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(239, 239, 239, .21));
+    border-radius: 5px;
+}
+
+footer .input-box .frm-input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    background-color: transparent;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, .15), rgba(27, 20, 38, 0));
+    font-family: TitilliumWeb-Regular;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+footer .input-box .frm-input::placeholder {
+    color: white;
+}
+
+footer .frm-button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F9AA01;
+    color: #000;
+    font-family: TitilliumWeb-Bold;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+footer #copyright {
+    margin-top: 20px;
+    font-family: TitilliumWeb-Regular;
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+
+
+/********************* MEDIAS *********************/
+/* Desktop */
+
+@media screen and (min-width: 1200px) {
+    .container-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* border: 1px solid #EC4358; */
+    }
+    .header {
+        position: static;
+    }
+    .header label {
+        display: none;
+    }
+
+    header .header-top {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #F9AA01;
+        padding: 20px 0;
+    }
+
+    header .header-top span {
+        margin-right: 40px;
+        font-size: .8rem;
+        /* border: 1px solid white; */
+    }
+
+    header .header-top span img {
+        margin-right: 10px;
+    }
+
+    header .header-top .social-box {
+        margin-right: 0;
+    }
+
+    .banner {
+        background-image: url(../images/Banner_Liga-Game.png);
+    }
+
+    .banner h2 {
+        font-size: 3.5rem;
+    }
+}

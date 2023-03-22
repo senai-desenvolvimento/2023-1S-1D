@@ -1,0 +1,252 @@
+/* TitilliumWeb */
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-SemiBold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+/* Inter */
+@font-face {
+    font-family: Inter-Thin;
+    src: url(../assets/fonts/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../assets/fonts/Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-SemiBold;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Bold.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    color: white;
+    background-color: #1B1426;
+}
+
+
+/* Mobiel First */
+
+/* Generals */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Main */
+.fundo-login {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background-login-mobile.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.bkg-login {
+    /*aqui vai a borda gradient*/
+    width: 100%;
+    max-width: 320px;
+    height: 400px;
+    padding: 1px;
+    /* border: 1px solid white; */
+    border-radius: 8px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0.05));
+}
+
+.frm-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 35px 20px 35px;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(27, 20, 38, .5), rgba(27, 20, 38, .2));
+    /* backdrop-filter: blur(15px); */
+    border-radius: 8px;
+
+
+}
+
+.frm-login .login-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-family: TitilliumWeb-Black;
+
+}
+
+.frm-login .login-title hr {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #F9AA01;
+}
+
+.frm-login .frm-linha {
+    width: 100%;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .4), rgba(255, 255, 255, 0.1));
+    border-radius: 10px;
+}
+
+.frm-login .frm-linha .bkg-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .4), rgba(255, 255, 255, .1));
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+}
+
+.frm-login .frm-linha input {
+    width: 85%;
+    height: 40px;
+    background-color: transparent;
+    font-family: TitilliumWeb-Regular;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.frm-login .frm-linha input::placeholder {
+    color: white;
+}
+
+
+
+.frm-login .btn-logar {
+    width: 100%;
+    height: 40px;
+    font-family: TitilliumWeb-Bold;
+    font-size: 1.5rem;
+    background-color: #F9AA01;
+    border-radius: 8px;
+    border: 1px solid #F9AA01;
+}
+
+
+
+
+
+
+
+
+
+
+/********************* MEDIAS *********************/
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+    .container-grid {
+        max-width: 992px;
+        margin: 0 auto;
+        /* border: 1px solid #EC4358; */
+    }
+
+
+
+
+
+    /* Main */
+
+    .fundo-login {
+        margin-top: 0;
+        background-image: url(../assets/Banner_Login.png);
+        background-size: cover;
+        background-position: top;
+    }
+
+    .bkg-login {
+        max-width: 800px;
+        height: 520px;
+    }
+
+    .frm-login .login-title {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .frm-login .login-title hr {
+        margin-top: 5px;
+        width: 80px;
+        border-width: 1px;
+    }
+
+    .frm-login {
+        padding-top: 50px;
+        padding-bottom: initial;
+    }
+
+
+    .frm-login .frm-linha {
+        max-width: 565px;
+    }
+
+    .frm-login .frm-linha input {
+        width: 100%;
+        max-width: 510px;
+    }
+
+    .frm-login .btn-logar {
+        max-width: 210px;
+    }
+
+}

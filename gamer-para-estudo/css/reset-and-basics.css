@@ -1,0 +1,95 @@
+/* FONTS */
+
+/* TitilliumWeb */
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-SemiBold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+/* Inter */
+@font-face {
+    font-family: Inter-Thin;
+    src: url(../assets/fonts/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../assets/fonts/Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-SemiBold;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Bold.ttf);
+}
+
+/* INITIAL RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter-Regular;
+    font-size: 14px;
+    color: white;
+    background-color: #1B1426;
+}
+
+.container-grid {
+    width: 90%;
+    max-width: 992px;
+    margin: 0 auto;
+    /* border: 1px solid #EC4358; */
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .container-grid {
+        max-width: 992px;
+        margin: 0 auto;
+        /* border: 1px solid #EC4358; */
+    }
+}

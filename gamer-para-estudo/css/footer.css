@@ -1,0 +1,205 @@
+/* Mobile First */
+
+/********************* Footer *********************/
+footer {
+    padding: 40px 20px;
+    background-color: #1B1426;
+    background-image: url(../images/backgroung_footer.png);
+    box-shadow: inset 0 30px 60px rgba(0, 0, 0, 0.8);
+}
+
+footer .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .card-ftitem-box {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 50px;
+    /* border: 1px solid white; */
+}
+
+footer .card-ftitem-box #ftlogo-link {
+    width: 120px;
+    margin-bottom: 20px;
+    align-self: center;
+    /* border: 1px solid green; */
+}
+
+footer .card-ftitem-box #ftlogo {
+    width: 120px;
+    margin: 0 auto;
+}
+
+footer .card-ftitem-box h2 {
+    font-family: TitilliumWeb-Bold;
+    font-size: 2rem;
+}
+
+footer .card-ftitem-box hr {
+    width: 30%;
+    border: 1px solid #F9AA01;
+    margin-bottom: 30px;
+}
+
+footer .card-ftitem-box p {
+    margin-bottom: 20px;
+    font-family: Inter-Thin;
+    text-align: justify;
+}
+
+footer .card-ftitem-box .social-fticons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .card-ftitem-box .social-fticons img {
+    width: 35px;
+}
+
+footer .menu-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .menu-ftitem {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+}
+
+/* footer .menu-ftitem:last-of-type {
+    background-color: #EC4358;
+    
+} */
+
+footer .menu-ftitem::before {
+    content: "\2015";
+    margin-right: 10px;
+    color: #F9AA01;
+}
+
+footer .menu-ftitem a {
+    font-size: 1rem;
+    font-family: Inter-Regular;
+    text-decoration: none;
+    line-height: 2rem;
+    color: white;
+}
+
+
+
+footer a {
+    font-family: Quicksand-Regular;
+    text-decoration: none;
+    color: white;
+}
+
+footer p.contact-title {
+    margin-bottom: 10px;
+    font-family: Quicksand-Bold;
+    color: #F9AA01;
+    /* border: 1px solid white; */
+}
+
+footer p.contact-text {
+    margin-bottom: 10px;
+    font-family: Quicksand-Regular;
+}
+
+footer .frm-news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .input-box {
+    width: 100%;
+    height: 40px;
+    padding: 1px;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(239, 239, 239, .21));
+    border-radius: 5px;
+}
+
+footer .input-box .frm-input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    background-color: transparent;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, .15), rgba(27, 20, 38, 0));
+    font-family: TitilliumWeb-Regular;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+footer .input-box .frm-input::placeholder {
+    color: white;
+}
+
+footer .frm-button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F9AA01;
+    color: #000;
+    font-family: TitilliumWeb-Bold;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+footer #copyright {
+    margin-top: 20px;
+    font-family: TitilliumWeb-Regular;
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+
+    /* Footer */
+
+    footer .footer-flex {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    footer .card-ftitem-box {
+        align-items: flex-start;
+        padding-right: 20px;
+        /* border: 1px solid red; */
+    }
+
+    footer .card-ftitem-box:last-of-type {
+        padding-right: 0;
+    }
+
+    footer .card-ftitem-box #ftlogo-link {
+        align-self: inherit;
+        /* herda o comportamento do flex container */
+    }
+
+    footer .card-ftitem-box .social-fticons {
+        /* border: 1px solid white; */
+        width: 80%;
+    }
+
+    footer .menu-footer {
+        flex-direction: column;
+        width: 100%;
+    }
+}

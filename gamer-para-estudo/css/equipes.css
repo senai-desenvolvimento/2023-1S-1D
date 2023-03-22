@@ -1,0 +1,145 @@
+/* Mobile First */
+
+/* Main */
+
+main {
+    margin-top: 60px;
+    height: 1231px;
+    background-image: url(../images/background-equipes-mobile.png);
+    background-size: contain;
+    background-position: top;
+}
+
+main .cadastro-equipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    
+    padding: 80px 0 130px;
+    
+}
+
+main .cadastro-equipes::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(217, 217, 217, .01);
+    backdrop-filter: blur(1px);
+}
+
+
+
+/* Form cadastro */
+
+main .cadastro-equipes .frm-cad-equipe {
+    height: 492px;
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+}
+
+
+/* Table */
+main .cadastro-equipes table {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid white; */
+}
+
+/* tbody */
+main .cadastro-equipes thead,
+main .cadastro-equipes tbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* linha do cabeçalho da tabela */
+main .cadastro-equipes thead tr {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #F9AA01;
+}
+
+/* linha do cabeçalho */
+main .cadastro-equipes table thead th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    color: #F9AA01;
+    font-family: TitilliumWeb-Black;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+/* linhas da tabela, independentemente do cabeçalho ou corpo */
+main .cadastro-equipes table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .cadastro-equipes table tbody tr {
+    height: 70px;
+    margin-bottom: 20px;     
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+
+
+}
+
+main .cadastro-equipes table td {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #F9AA01;
+}
+
+main .cadastro-equipes table td:last-of-type {
+    border: none;
+}
+
+main .cadastro-equipes table td img.green-play {
+    width: 25px;
+}
+
+main .cadastro-equipes table td img.yellow-trash {
+    width: 15px;
+}
+
+
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .container-grid {
+        width: 100%;
+        max-width: 992px;
+        margin: 0 auto;
+        /* border: 1px solid #EC4358; */
+    }
+}
