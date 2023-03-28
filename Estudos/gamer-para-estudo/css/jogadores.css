@@ -4,8 +4,8 @@
 
 main {
     margin-top: 60px;
-    height: 1231px;
-    background-image: url(../images/background-equipes-mobile.png);
+    height: 1403px;
+    background-image: url(../assets/fundo-jogadores-mobile.png);
     background-size: contain;
     background-position: top;
 }
@@ -49,7 +49,7 @@ main .cadastro-equipes .frm-cad-equipe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 492px;
+    /* height: 650px; */
 
     /* efeito da borda e do fundo glass */
     border: 2px solid transparent;
@@ -68,9 +68,10 @@ main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo {
 }
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo h1 {
     font-family: TitilliumWeb-Black, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo hr {
@@ -213,6 +214,7 @@ main .cadastro-equipes table tbody tr {
 main .cadastro-equipes table td {
     width: 100%;
     height: 38px;
+    padding: 0 8px;
     display: flex;
     justify-content: center;
     align-items: center;

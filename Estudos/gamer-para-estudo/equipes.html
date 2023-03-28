@@ -90,17 +90,37 @@
     </header>
 
 
-
+    <!-- MAIN -->
     <main>
-        
 
         <section class="container-grid cadastro-equipes">
-
+            
+            
             <form action="" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Equipes</h1>
+                    <hr>
+                </div>
 
+                <input class="campo-entrada" type="number" id="idEquipe" placeholder="Digite o Id da sua equipe:">
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:">
+                <label class="foto" for="foto-file">
+                    Nenuma imagem selecionada...
+                    <input  type="file" id="foto-file">
+                </label>
+                
+                <button>Cadastro</button>
+                
+                
+                
+                <!-- <select class="equipeid" id="equipeid">
+                    <option value="">Selecione uma Equipe</option>
+                    <option value="x">Equipe X</option>
+                    <option value="y">Equipe Y</option>
+                </select> -->
             </form>
 
-
+            <!-- TABELA CADASTRO DE EQUIPES -->
 
             <table>
                 <thead>
