@@ -21,7 +21,7 @@ main .cadastro-equipes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    align-items: center;
     position: relative;
     z-index: 0;
     height: 100%;
@@ -240,5 +240,25 @@ main .cadastro-equipes table td img.yellow-trash {
         max-width: 992px;
         margin: 0 auto;
         /* border: 1px solid #EC4358; */
+    }
+
+    main .cadastro-equipes .frm-cad-equipe,
+    main .cadastro-equipes table {
+        width: 800px;
+    }
+
+    main .cadastro-equipes .frm-cad-equipe .foto {
+        width: 100%;
+        font-size: 16px;
+        gap: 20px;
+    }
+
+    main .cadastro-equipes .frm-cad-equipe .foto::before {
+        width: 280px;
+        height: 40px;
+        font-size: 16px;
+    }
+    main .cadastro-equipes .frm-cad-equipe button {
+        width: 243px;
     }
 }
