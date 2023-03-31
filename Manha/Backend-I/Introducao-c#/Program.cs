@@ -4,8 +4,8 @@
 // int idade = 36;
 // idade = 50;
 
-// const int idade = 36;
-// idade = 45;
+// // const int idade = 36;
+// // idade = 45;
 
 // Console.WriteLine("A idade do " + name + " é " + idade + " anos");
 
@@ -14,28 +14,28 @@
 // bool careca = false;
 // Console.WriteLine(careca);
 
-// Operadores
+// //Operadores
 
-// atribuição =
+// //atribuição =
 // int x = 15;
 
-// operadores aritméticos
+// //operadores aritméticos
 
-// soma
+// //soma
 // Console.WriteLine(5 + 4);
 // Console.WriteLine(5 + "4");
 // Console.WriteLine(5 + x);
 
-// subtração
+// //subtração
 // Console.WriteLine(15 - 3);
 
-// multiplicação
+// //multiplicação
 // Console.WriteLine(5 * 5);
 
-// divisão
+// //divisão
 // Console.WriteLine(10 / 10);
 
-// modular
+// //modular
 // Console.WriteLine(5 % 2);
 
 
@@ -59,11 +59,11 @@
 // //diferente de
 // Console.WriteLine( 5 != 6);
 
-//operadores lógicos
+// //operadores lógicos
 
-// && : e
-// || : ou 
-// ! : não
+// //&& : e
+// //|| : ou 
+// //! : não
 
 // Console.WriteLine(5 == 5 && 8 == 8);// TRUE && TRUE = TRUE
 // Console.WriteLine(5 == 5 && 8 == 5);// TRUE && FALSE = FALSE
@@ -79,15 +79,15 @@
 
 // Console.WriteLine(!(2 == 2 || 3 == 3));
 
-//Crie um programa para calcular o IMC de uma pessoa
+// //Crie um programa para calcular o IMC de uma pessoa
 
-//Algoritmo
-//entrada: nome, idade, peso, altura
-//processamento: peso dividido por altura ao quadrado
+// //Algoritmo
+// //entrada: nome, idade, peso, altura
+// //processamento: peso dividido por altura ao quadrado
 
 // //entrada
 // string nome = "Eduardo";
-// int idade = 40;
+// //int idade = 40;
 // float peso = 94;
 // float altura = 1.67f;
 
@@ -96,4 +96,45 @@
 
 // //saída
 // Console.WriteLine($"O IMC do " + nome + " é de : " + Math.Round(imc,2));
+
+
+
+// int contador = 10;
+
+// //contador = contador +3;
+
+// contador += 3;
+
+// Console.WriteLine(contador);
+
+
+// Console.WriteLine($"Informe Sim para sextou");
+// string resposta = Console.ReadLine().ToUpper();
+
+// if (resposta == "SIM")
+// {
+//     Console.WriteLine($"Sextou !!!!");    
+// }
+// else
+// {
+//     Console.WriteLine($"Vou trabalhar !!!!");    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

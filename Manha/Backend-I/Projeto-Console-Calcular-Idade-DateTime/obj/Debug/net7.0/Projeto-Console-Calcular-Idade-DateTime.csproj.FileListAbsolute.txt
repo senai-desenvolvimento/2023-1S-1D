@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\bin\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\bin\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\bin\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\bin\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\bin\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\refint\Projeto-Console-Calcular-Idade-DateTime.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\Projeto-Console-Calcular-Idade-DateTime.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade-DateTime\obj\Debug\net7.0\ref\Projeto-Console-Calcular-Idade-DateTime.dll

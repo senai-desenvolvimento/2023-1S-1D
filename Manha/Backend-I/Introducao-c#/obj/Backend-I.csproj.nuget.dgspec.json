@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\manha\\Backend-I\\Backend-I.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Introducao-c#\\Backend-I.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\manha\\Backend-I\\Backend-I.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Introducao-c#\\Backend-I.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\manha\\Backend-I\\Backend-I.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Introducao-c#\\Backend-I.csproj",
         "projectName": "Backend-I",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\manha\\Backend-I\\Backend-I.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Introducao-c#\\Backend-I.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\manha\\Backend-I\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Introducao-c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",

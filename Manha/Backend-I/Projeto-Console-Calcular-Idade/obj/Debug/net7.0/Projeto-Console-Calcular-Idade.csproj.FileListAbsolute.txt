@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\bin\Debug\net7.0\Projeto-Console-Calcular-Idade.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\bin\Debug\net7.0\Projeto-Console-Calcular-Idade.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\bin\Debug\net7.0\Projeto-Console-Calcular-Idade.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\bin\Debug\net7.0\Projeto-Console-Calcular-Idade.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\bin\Debug\net7.0\Projeto-Console-Calcular-Idade.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\refint\Projeto-Console-Calcular-Idade.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\Projeto-Console-Calcular-Idade.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-Calcular-Idade\obj\Debug\net7.0\ref\Projeto-Console-Calcular-Idade.dll

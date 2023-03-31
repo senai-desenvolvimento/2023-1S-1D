@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Projeto-Console-Calcular-Idade-DateTime/1.0.0": {
+        "runtime": {
+          "Projeto-Console-Calcular-Idade-DateTime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto-Console-Calcular-Idade-DateTime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

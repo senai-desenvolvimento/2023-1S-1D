@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\bin\Debug\net7.0\Projeto-Console-IMC.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\bin\Debug\net7.0\Projeto-Console-IMC.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\bin\Debug\net7.0\Projeto-Console-IMC.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\bin\Debug\net7.0\Projeto-Console-IMC.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\bin\Debug\net7.0\Projeto-Console-IMC.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\refint\Projeto-Console-IMC.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\Projeto-Console-IMC.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Console-IMC\obj\Debug\net7.0\ref\Projeto-Console-IMC.dll

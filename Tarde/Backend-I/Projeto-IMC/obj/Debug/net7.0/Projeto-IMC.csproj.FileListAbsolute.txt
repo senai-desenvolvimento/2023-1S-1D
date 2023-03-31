@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\bin\Debug\net7.0\Projeto-IMC.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\bin\Debug\net7.0\Projeto-IMC.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\bin\Debug\net7.0\Projeto-IMC.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\bin\Debug\net7.0\Projeto-IMC.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\bin\Debug\net7.0\Projeto-IMC.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\refint\Projeto-IMC.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\Projeto-IMC.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-IMC\obj\Debug\net7.0\ref\Projeto-IMC.dll
