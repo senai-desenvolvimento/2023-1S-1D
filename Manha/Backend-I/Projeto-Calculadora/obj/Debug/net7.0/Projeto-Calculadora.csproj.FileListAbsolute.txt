@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\bin\Debug\net7.0\Projeto-Calculadora.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\bin\Debug\net7.0\Projeto-Calculadora.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\bin\Debug\net7.0\Projeto-Calculadora.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\bin\Debug\net7.0\Projeto-Calculadora.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\bin\Debug\net7.0\Projeto-Calculadora.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\refint\Projeto-Calculadora.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\Projeto-Calculadora.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Calculadora\obj\Debug\net7.0\ref\Projeto-Calculadora.dll

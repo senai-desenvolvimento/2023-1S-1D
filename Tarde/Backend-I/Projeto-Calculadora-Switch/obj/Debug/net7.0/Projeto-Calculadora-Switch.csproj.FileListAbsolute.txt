@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\bin\Debug\net7.0\Projeto-Calculadora-Switch.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\bin\Debug\net7.0\Projeto-Calculadora-Switch.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\bin\Debug\net7.0\Projeto-Calculadora-Switch.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\bin\Debug\net7.0\Projeto-Calculadora-Switch.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\bin\Debug\net7.0\Projeto-Calculadora-Switch.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\refint\Projeto-Calculadora-Switch.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\Projeto-Calculadora-Switch.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Calculadora-Switch\obj\Debug\net7.0\ref\Projeto-Calculadora-Switch.dll

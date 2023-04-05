@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\bin\Debug\net7.0\Estruturas-Repeticao.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\bin\Debug\net7.0\Estruturas-Repeticao.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\bin\Debug\net7.0\Estruturas-Repeticao.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\bin\Debug\net7.0\Estruturas-Repeticao.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\bin\Debug\net7.0\Estruturas-Repeticao.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\refint\Estruturas-Repeticao.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\Estruturas-Repeticao.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Estruturas-Repeticao\obj\Debug\net7.0\ref\Estruturas-Repeticao.dll

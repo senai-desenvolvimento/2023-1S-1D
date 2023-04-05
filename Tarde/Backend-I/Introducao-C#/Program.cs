@@ -76,12 +76,33 @@
 
 //Crie um programa para calcular o IMC de uma pessoa
 
-//entradas
-string nome = "Carlos";
-float peso = 89.9f;
-float altura = 1.80f;
+// //entradas
+// string nome = "Carlos";
+// float peso = 89.9f;
+// float altura = 1.80f;
 
-//processamento
-float imc = peso / (altura * altura);
+// //processamento
+// float imc = peso / (altura * altura);
 
-Console.WriteLine($"O IMC do " + nome + " é de : " + Math.Round(imc,2));
+// Console.WriteLine($"O IMC do " + nome + " é de : " + Math.Round(imc,2));
+
+
+//operador de incremento e decremento
+
+int contador = 10;
+
+//contador = contador +15;
+
+contador += 15;
+
+Console.WriteLine(contador);
+
+//método que retorna valor de PI
+Console.WriteLine(Math.PI);
+
+//método que retorna o maior valor de 2
+Console.WriteLine(Math.Max(2,60));
+
+//método que retorna o menor valor de 2
+Console.WriteLine(Math.Min(2,60));
+

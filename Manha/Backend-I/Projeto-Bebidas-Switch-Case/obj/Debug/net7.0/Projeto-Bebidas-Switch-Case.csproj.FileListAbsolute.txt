@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\bin\Debug\net7.0\Projeto-Bebidas-Switch-Case.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\bin\Debug\net7.0\Projeto-Bebidas-Switch-Case.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\bin\Debug\net7.0\Projeto-Bebidas-Switch-Case.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\bin\Debug\net7.0\Projeto-Bebidas-Switch-Case.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\bin\Debug\net7.0\Projeto-Bebidas-Switch-Case.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\refint\Projeto-Bebidas-Switch-Case.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\Projeto-Bebidas-Switch-Case.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Bebidas-Switch-Case\obj\Debug\net7.0\ref\Projeto-Bebidas-Switch-Case.dll

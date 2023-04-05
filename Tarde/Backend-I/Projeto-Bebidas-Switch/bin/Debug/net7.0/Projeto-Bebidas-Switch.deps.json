@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Projeto-Bebidas-Switch/1.0.0": {
+        "runtime": {
+          "Projeto-Bebidas-Switch.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto-Bebidas-Switch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

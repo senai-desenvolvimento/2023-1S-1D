@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\bin\Debug\net7.0\Projeto-Bebidas-Switch.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\bin\Debug\net7.0\Projeto-Bebidas-Switch.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\bin\Debug\net7.0\Projeto-Bebidas-Switch.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\bin\Debug\net7.0\Projeto-Bebidas-Switch.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\bin\Debug\net7.0\Projeto-Bebidas-Switch.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\refint\Projeto-Bebidas-Switch.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\Projeto-Bebidas-Switch.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Bebidas-Switch\obj\Debug\net7.0\ref\Projeto-Bebidas-Switch.dll
