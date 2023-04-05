@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css
+
+
+
+    ">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <figure>
+        <img class="arte" src="./assets/images/art.png" alt="">
+    </figure>
+    <div class="container-grid container-flex">
+
+        <div class="caixa-contato">
+            <i class="fa-regular fa-address-card icone-contato"></i>
+        </div>
+
+        <h1 class="titulo">O Suspeito v1.0</h1>
+        <p class="descricao">Insira os dados do suspeito...</p>
+
+        <form action="" class="formulario-contato">
+            <!-- CAMPOS -->
+            <div class="linha">
+                <div class="rotulos">
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="entradas">
+                    <input type="text" id="nome" class="entrada entrada--metade" placeholder="Nome">
+                    <input type="text" id="sobrenome" class="entrada entrada--metade" placeholder="Sobrenome">
+                </div>
+            </div>
+            <div class="linha">
+                <div class="rotulos">
+                    <label for="telefonou">Telefonou para a vítima?</label>
+                </div>
+                <div class="entradas">
+                    <select id="telefonou" class="entrada entrada--inteira">
+                        <option value="">Escolha uma opção</option>
+                        <option value="s">Sim</option>
+                        <option value="n">Não</option>
+                    </select>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="rotulos">
+                    <label for="local">Esteve no local?</label>
+                </div>
+                <div class="entradas">
+                    <select id="local" class="entrada entrada--inteira">
+                        <option value="">Escolha uma opção</option>
+                        <option value="s">Sim</option>
+                        <option value="n">Não</option>
+                    </select>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="rotulos">
+                    <label for="moraPerto">Mora perto da vítma?</label>
+                </div>
+                <div class="entradas">
+                    <select id="moraPerto" class="entrada entrada--inteira">
+                        <option value="">Escolha uma opção</option>
+                        <option value="s">Sim</option>
+                        <option value="n">Não</option>
+                    </select>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="rotulos">
+                    <label for="devia">Devia para a vítma?</label>
+                </div>
+                <div class="entradas">
+                    <select id="devia" class="entrada entrada--inteira">
+                        <option value="">Escolha uma opção</option>
+                        <option value="s">Sim</option>
+                        <option value="n">Não</option>
+                    </select>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="rotulos">
+                    <label for="nome">Já trabalhou com a vítma?</label>
+                </div>
+                <div class="trabalhou">
+                    <select id="trabalhou" class="entrada entrada--inteira">
+                        <option value="">Escolha uma opção</option>
+                        <option value="s">Sim</option>
+                        <option value="n">Não</option>
+                    </select>
+                </div>
+            </div>
+         
+
+            <!-- BOTÕES -->
+            <div class="linha box-botoes">
+                <button type="button" onclick="analisar()" class="btn cadastrar">Analisar</button>
+                <button type="reset" class="btn limpar">Limpar</button>
+            </div>
+        </form>
+        <section class="cadastros">
+            <article class="cadastro">
+
+            </article>
+        </section>
+
+        <script src="./js/funcoes.js"></script>
+</body>
+
+</html>
