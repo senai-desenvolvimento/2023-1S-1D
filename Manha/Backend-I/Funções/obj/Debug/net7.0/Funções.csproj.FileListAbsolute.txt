@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\bin\Debug\net7.0\Funções.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\bin\Debug\net7.0\Funções.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\bin\Debug\net7.0\Funções.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\bin\Debug\net7.0\Funções.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\bin\Debug\net7.0\Funções.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\refint\Funções.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\Funções.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Funções\obj\Debug\net7.0\ref\Funções.dll

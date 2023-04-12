@@ -77,7 +77,37 @@
 
 //escreva um programa que receba e imprima o nome e idade de 5 pessoas
 
- //personalizar cores: a resposta do nome em azul e a resposta da idade em verde (cor da fonte)
+//personalizar cores: a resposta do nome em azul e a resposta da idade em verde (cor da fonte)
+
+// //declarando as variáveis
+// string[] nomes = new string[5];
+// int[] idades = new int[5];
+
+// //recebe e armazena os dados nas listas(arrays)
+// for (var i = 0; i < 5; i++)
+// {
+//     Console.WriteLine($"Informe o {i + 1}º nome: ");
+//     nomes[i] = Console.ReadLine();
+
+//     Console.WriteLine($"Informe a {i + 1}º idade: ");
+//     idades[i] = int.Parse(Console.ReadLine());
+// }
+
+// for (var i = 0; i < 5; i++)
+// {
+//     //imprimir a nome
+//     Console.ForegroundColor = ConsoleColor.Blue;
+//     Console.WriteLine($"{i + 1}) nome: {nomes[i]}");
+//     Console.ResetColor();
+
+//     Console.ForegroundColor = ConsoleColor.Green;
+//     //imprimir a idade
+//     Console.WriteLine($"idade: {idades[i]} anos");
+//     Console.ResetColor();
+
+//     //pulando a linha
+//     Console.WriteLine();
+// }
 
 //exemplo de exibição: 
 
@@ -98,3 +128,35 @@
 //DESAFIOS
 
 //Faça um programa que carregue um array de tamanho 6 com números inteiros. Calcule e imprima a quantidade de números ímpares e a quantidade de números pares.
+
+int pares = 0;
+int impares =  0;
+
+int[] numeros = new int[6];
+
+for (var i = 0; i < 6; i++)
+{
+    Console.WriteLine($"Digite um número: ");
+    numeros[i] = int.Parse(Console.ReadLine()!);
+
+    if ((numeros[i] % 2 == 0) && (numeros[i] > 0)) {
+        pares++;
+
+    } else {
+        impares++;
+    }
+}
+
+foreach (int x in numeros)
+{
+    if (x % 2 == 0)
+    {
+        Console.WriteLine($"O número {x} é PAR");
+        
+    } else {
+        Console.WriteLine($"O número {x} é IMPAR");
+        
+    }
+}
+
+Console.WriteLine($"Há {pares} PARES e {impares} IMPARES");
