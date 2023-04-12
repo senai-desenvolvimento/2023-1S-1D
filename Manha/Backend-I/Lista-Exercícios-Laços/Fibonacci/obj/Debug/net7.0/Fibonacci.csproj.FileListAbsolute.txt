@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\bin\Debug\net7.0\Fibonacci.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\bin\Debug\net7.0\Fibonacci.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\bin\Debug\net7.0\Fibonacci.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\bin\Debug\net7.0\Fibonacci.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\bin\Debug\net7.0\Fibonacci.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\refint\Fibonacci.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\Fibonacci.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\Fibonacci\obj\Debug\net7.0\ref\Fibonacci.dll

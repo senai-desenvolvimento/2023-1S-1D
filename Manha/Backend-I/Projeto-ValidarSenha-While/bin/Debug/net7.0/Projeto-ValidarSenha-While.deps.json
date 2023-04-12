@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Projeto-ValidarSenha-While/1.0.0": {
+        "runtime": {
+          "Projeto-ValidarSenha-While.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto-ValidarSenha-While/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

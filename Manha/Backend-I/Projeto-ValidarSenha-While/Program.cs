@@ -17,4 +17,4 @@ while (senha.Length != 6)
     Console.WriteLine($"Digite uma senha no padrão requerido (com 6 caracteres): ");
     senha = Console.ReadLine();     
 }
-Console.WriteLine($"Usuário e senha recebidas com sucesso!");
+Console.WriteLine($"Usuário {nome}, seus dados foram recebidos com sucesso!");

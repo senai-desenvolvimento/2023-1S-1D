@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\bin\Debug\net7.0\Projeto-ValidarSenha-While.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\bin\Debug\net7.0\Projeto-ValidarSenha-While.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\bin\Debug\net7.0\Projeto-ValidarSenha-While.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\bin\Debug\net7.0\Projeto-ValidarSenha-While.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\bin\Debug\net7.0\Projeto-ValidarSenha-While.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\refint\Projeto-ValidarSenha-While.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\Projeto-ValidarSenha-While.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-ValidarSenha-While\obj\Debug\net7.0\ref\Projeto-ValidarSenha-While.dll

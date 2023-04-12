@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\bin\Debug\net7.0\Array.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\bin\Debug\net7.0\Array.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\bin\Debug\net7.0\Array.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\bin\Debug\net7.0\Array.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\bin\Debug\net7.0\Array.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\refint\Array.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\Array.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Array\obj\Debug\net7.0\ref\Array.dll

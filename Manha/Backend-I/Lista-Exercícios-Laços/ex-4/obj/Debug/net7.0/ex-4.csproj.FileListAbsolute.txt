@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\bin\Debug\net7.0\ex-4.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\bin\Debug\net7.0\ex-4.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\bin\Debug\net7.0\ex-4.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\bin\Debug\net7.0\ex-4.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\bin\Debug\net7.0\ex-4.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\refint\ex-4.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ex-4.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Lista-Exercícios-Laços\ex-4\obj\Debug\net7.0\ref\ex-4.dll

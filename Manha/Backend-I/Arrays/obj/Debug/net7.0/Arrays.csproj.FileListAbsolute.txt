@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\bin\Debug\net7.0\Arrays.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\bin\Debug\net7.0\Arrays.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\bin\Debug\net7.0\Arrays.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\bin\Debug\net7.0\Arrays.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\bin\Debug\net7.0\Arrays.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\refint\Arrays.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\Arrays.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Arrays\obj\Debug\net7.0\ref\Arrays.dll
