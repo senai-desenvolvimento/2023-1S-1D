@@ -18,10 +18,10 @@
 // {
 //     Console.WriteLine($"Informe o nome da pessoa: ");
 //     string nome = Console.ReadLine();
-    
+
 //     Console.WriteLine($"Informe o sobrenome da pessoa: ");
 //     string sobrenome = Console.ReadLine();
-    
+
 //     Console.WriteLine($"Bom dia {nome} {sobrenome}");  
 // }
 
@@ -59,25 +59,72 @@
 //método para criar uma barra de carregamento
 //Console.WriteLine($"Carregando...................");
 
-static void BarraCarregamento(string texto, int quantidadePontinhos, int tempo)
-{
-    Console.BackgroundColor = ConsoleColor.Red;
-    Console.Write(texto);
+// static void BarraCarregamento(string texto, int quantidadePontinhos, int tempo)
+// {
+//     Console.BackgroundColor = ConsoleColor.Red;
+//     Console.Write(texto);
 
-    for (var i = 0; i < quantidadePontinhos; i++)
+//     for (var i = 0; i < quantidadePontinhos; i++)
+//     {
+//         Console.Write($".");
+//         Thread.Sleep(tempo);        
+//     }  
+//     Console.ResetColor();  
+// }
+
+// BarraCarregamento("Testando",15,700);
+
+// BarraCarregamento("Finalizando",20,400);
+
+// BarraCarregamento("Aguarde",3,2000);
+
+// BarraCarregamento("Cadastrando",90,100);
+
+// BarraCarregamento("logando",25,200);
+
+
+//faça um método para calcular imposto sobre a renda
+
+//regras de negócio
+//tabela de imposto vs renda
+//até $1500 - isento
+//de $1501 até $3500 - 20% de imposto
+//de $3501 até $6000 - 25% de imposto
+//acima de $6000 - 35% de imposto
+
+
+//receber o renda via console
+//chamar o método passando a renda como parâmetro
+//exibir o valor do imposto referente á renda 
+
+using System.Globalization;
+
+static float LeaoFaminto( float a )
+{//aqui o parâmetro a sera o nosso salario
+    if( a <= 1500 )
     {
-        Console.Write($".");
-        Thread.Sleep(tempo);        
-    }  
-    Console.ResetColor();  
+        return 0;
+    } 
+    else if( a >1500 && a <= 3500 )
+    {
+        return (a / 100) * 20; 
+    } 
+    else if( a >= 3501 && a <= 6000 ) 
+    {
+        return (a / 100) * 25;
+    } 
+    else 
+    {
+        return (a / 100) * 35;
+    }
+    
 }
 
-BarraCarregamento("Testando",15,700);
+Console.WriteLine($"Olá, informe o salário");
+float salario = float.Parse(Console.ReadLine() ) ;
 
-BarraCarregamento("Finalizando",20,400);
+float impostoDevido = LeaoFaminto(salario);
 
-BarraCarregamento("Aguarde",3,2000);
-
-BarraCarregamento("Cadastrando",90,100);
-
-BarraCarregamento("logando",25,200);
+Console.WriteLine(@$"
+Salário: {Math.Round(salario, 2).ToString("C", new CultureInfo("pt-BR"))}
+Valor do Imposto: R$ {Math.Round(impostoDevido, 2)}");

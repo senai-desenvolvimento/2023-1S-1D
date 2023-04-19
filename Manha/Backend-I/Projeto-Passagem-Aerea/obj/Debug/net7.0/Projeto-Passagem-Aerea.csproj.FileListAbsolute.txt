@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\bin\Debug\net7.0\Projeto-Passagem-Aerea.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\bin\Debug\net7.0\Projeto-Passagem-Aerea.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\bin\Debug\net7.0\Projeto-Passagem-Aerea.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\bin\Debug\net7.0\Projeto-Passagem-Aerea.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\bin\Debug\net7.0\Projeto-Passagem-Aerea.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\refint\Projeto-Passagem-Aerea.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\Projeto-Passagem-Aerea.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Passagem-Aerea\obj\Debug\net7.0\ref\Projeto-Passagem-Aerea.dll
