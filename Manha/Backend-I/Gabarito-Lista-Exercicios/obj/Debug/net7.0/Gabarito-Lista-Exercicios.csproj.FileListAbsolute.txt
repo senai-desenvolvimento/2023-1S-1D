@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\bin\Debug\net7.0\Gabarito-Lista-Exercicios.exe
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\bin\Debug\net7.0\Gabarito-Lista-Exercicios.deps.json
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\bin\Debug\net7.0\Gabarito-Lista-Exercicios.runtimeconfig.json
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\bin\Debug\net7.0\Gabarito-Lista-Exercicios.dll
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\bin\Debug\net7.0\Gabarito-Lista-Exercicios.pdb
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.dll
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\refint\Gabarito-Lista-Exercicios.dll
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.pdb
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\Gabarito-Lista-Exercicios.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\Gabarito-Lista-Exercicios\obj\Debug\net7.0\ref\Gabarito-Lista-Exercicios.dll
