@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\bin\Debug\net7.0\Projeto-Aluno-POO.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\bin\Debug\net7.0\Projeto-Aluno-POO.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\bin\Debug\net7.0\Projeto-Aluno-POO.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\bin\Debug\net7.0\Projeto-Aluno-POO.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\bin\Debug\net7.0\Projeto-Aluno-POO.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\refint\Projeto-Aluno-POO.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\Projeto-Aluno-POO.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Tarde\Backend-I\Projeto-Aluno-POO\obj\Debug\net7.0\ref\Projeto-Aluno-POO.dll
