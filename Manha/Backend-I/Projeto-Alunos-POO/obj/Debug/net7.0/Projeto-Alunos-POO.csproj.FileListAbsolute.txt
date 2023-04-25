@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\bin\Debug\net7.0\Projeto-Alunos-POO.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\bin\Debug\net7.0\Projeto-Alunos-POO.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\bin\Debug\net7.0\Projeto-Alunos-POO.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\bin\Debug\net7.0\Projeto-Alunos-POO.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\bin\Debug\net7.0\Projeto-Alunos-POO.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\refint\Projeto-Alunos-POO.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\Projeto-Alunos-POO.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Projeto-Alunos-POO\obj\Debug\net7.0\ref\Projeto-Alunos-POO.dll
