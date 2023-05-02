@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Polimorfismo_POO/1.0.0": {
+        "runtime": {
+          "Polimorfismo_POO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Polimorfismo_POO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
