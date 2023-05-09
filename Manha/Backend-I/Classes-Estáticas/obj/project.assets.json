@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Polimorfismo-Exemplo\\Polimorfismo.csproj",
-      "projectName": "Polimorfismo",
-      "projectPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Polimorfismo-Exemplo\\Polimorfismo.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Classes-Estáticas\\Classes-Estáticas.csproj",
+      "projectName": "Classes-Estáticas",
+      "projectPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Classes-Estáticas\\Classes-Estáticas.csproj",
       "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Polimorfismo-Exemplo\\obj\\",
+      "outputPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-I\\Classes-Estáticas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",

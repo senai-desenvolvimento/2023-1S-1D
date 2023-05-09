@@ -3,7 +3,6 @@ namespace Polimorfismo
     //classe concreta herda da classe abstrata
     public class Credito : Cartao
     {
-
         //Polimorfismo : Sobrescrita
         public override void Pagar()
         {
@@ -20,7 +19,7 @@ namespace Polimorfismo
         //Polimorfismo : Sobrecarga
         public float DescontoCredito(float parcelas)
         {
-            return (parcelas * 0.9f);
+            return parcelas * 0.9f;
         }
 
         public float DescontoCredito(float parcelas, string bandeiraCartao)
