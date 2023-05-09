@@ -20,6 +20,7 @@ namespace Classes_Estáticas
             return fahreinheit;
         }   
 
+        //método estático para converter temperatura de fahreinheit para celsius 
         public static float FahreinheitParaCelsius(float temperaturaFahrenheit)
         {
             //lógica da função
