@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\construtores\bin\Debug\net7.0\construtores.exe
+C:\Users\Carlos\Desktop\construtores\bin\Debug\net7.0\construtores.deps.json
+C:\Users\Carlos\Desktop\construtores\bin\Debug\net7.0\construtores.runtimeconfig.json
+C:\Users\Carlos\Desktop\construtores\bin\Debug\net7.0\construtores.dll
+C:\Users\Carlos\Desktop\construtores\bin\Debug\net7.0\construtores.pdb
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.dll
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\refint\construtores.dll
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.pdb
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\construtores.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\construtores\obj\Debug\net7.0\ref\construtores.dll
