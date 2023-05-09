@@ -3,7 +3,7 @@ namespace Classes_Estáticas
     //classe estática 
     public static class ConversorTemperatura
     {
-        //membro estático
+        //propriedades (membros) estáticos
         public static float Temperatura { get; set; }       
         
 
