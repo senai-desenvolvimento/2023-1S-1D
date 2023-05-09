@@ -1,5 +1,6 @@
 namespace Classes_Estáticas
 {
+    //classe estática 
     public static class ConversorTemperatura
     {
         //membro estático
