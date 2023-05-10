@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\bin\Debug\net7.0\Classes-Estáticas.exe
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\bin\Debug\net7.0\Classes-Estáticas.deps.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\bin\Debug\net7.0\Classes-Estáticas.runtimeconfig.json
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\bin\Debug\net7.0\Classes-Estáticas.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\bin\Debug\net7.0\Classes-Estáticas.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\refint\Classes-Estáticas.dll
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.pdb
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\Classes-Estáticas.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Classes-Estáticas\obj\Debug\net7.0\ref\Classes-Estáticas.dll
