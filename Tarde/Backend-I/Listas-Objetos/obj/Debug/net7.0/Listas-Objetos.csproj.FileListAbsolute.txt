@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\Listas-Objetos\bin\Debug\net7.0\Listas-Objetos.exe
+C:\Users\Carlos\Desktop\Listas-Objetos\bin\Debug\net7.0\Listas-Objetos.deps.json
+C:\Users\Carlos\Desktop\Listas-Objetos\bin\Debug\net7.0\Listas-Objetos.runtimeconfig.json
+C:\Users\Carlos\Desktop\Listas-Objetos\bin\Debug\net7.0\Listas-Objetos.dll
+C:\Users\Carlos\Desktop\Listas-Objetos\bin\Debug\net7.0\Listas-Objetos.pdb
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.dll
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\refint\Listas-Objetos.dll
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.pdb
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\Listas-Objetos.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\Listas-Objetos\obj\Debug\net7.0\ref\Listas-Objetos.dll
