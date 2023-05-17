@@ -1,5 +1,5 @@
 is_global = true
-build_property.TargetFramework = net7.0
+build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Listas_Objetos
-build_property.ProjectDir = c:\Users\Carlos\Desktop\2023-1S-1D\Manha\Backend-I\Listas-Objetos\
+build_property.RootNamespace = O_Suspeito
+build_property.ProjectDir = c:\Users\Carlos\Desktop\2023-1S-1D\Estudos\Lógica de Programação\Condicionais\CSharp\O Suspeito\
