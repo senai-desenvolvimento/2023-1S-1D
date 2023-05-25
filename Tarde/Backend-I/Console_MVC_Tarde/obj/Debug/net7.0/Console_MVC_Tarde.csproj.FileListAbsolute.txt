@@ -1,0 +1,15 @@
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\bin\Debug\net7.0\Console_MVC_Tarde.exe
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\bin\Debug\net7.0\Console_MVC_Tarde.deps.json
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\bin\Debug\net7.0\Console_MVC_Tarde.runtimeconfig.json
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\bin\Debug\net7.0\Console_MVC_Tarde.dll
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\bin\Debug\net7.0\Console_MVC_Tarde.pdb
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.dll
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\refint\Console_MVC_Tarde.dll
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.pdb
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\Console_MVC_Tarde.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\Console_MVC_Tarde\obj\Debug\net7.0\ref\Console_MVC_Tarde.dll
