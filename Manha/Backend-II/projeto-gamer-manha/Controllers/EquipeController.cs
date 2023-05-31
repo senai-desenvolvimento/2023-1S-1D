@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using projeto_gamer_manha.Infra;
 using projeto_gamer_manha.Models;
 
@@ -59,7 +53,7 @@ namespace projeto_gamer_manha.Controllers
                 }
 
                 //gera o caminho completo até o caminho do arquivo(imagem - nome com extensão)
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", folder, file.FileName);
+                var path = Path.Combine(folder, file.FileName);
 
                 //using para que a instrução dentro dele seja encerrado assim que for executada
                 using (var stream = new FileStream(path, FileMode.Create))
@@ -84,7 +78,6 @@ namespace projeto_gamer_manha.Controllers
             //retorna para o local chamando a rota de listar(método Index)
             return LocalRedirect("~/Equipe/Listar");
         }
-
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
