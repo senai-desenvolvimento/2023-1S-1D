@@ -10574,11 +10574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-I\\projeto-gamer-tarde\\projeto-gamer-tarde.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\projeto-gamer-tarde.csproj",
       "projectName": "projeto-gamer-tarde",
-      "projectPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-I\\projeto-gamer-tarde\\projeto-gamer-tarde.csproj",
+      "projectPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\projeto-gamer-tarde.csproj",
       "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-I\\projeto-gamer-tarde\\obj\\",
+      "outputPath": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",

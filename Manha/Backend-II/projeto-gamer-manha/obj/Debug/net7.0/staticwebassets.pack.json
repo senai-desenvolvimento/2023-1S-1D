@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\img\\Equipes\\agua santa.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\agua santa.png"
+    },
+    {
+      "Id": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\img\\Equipes\\palmeiras.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\palmeiras.png"
+    },
+    {
       "Id": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
