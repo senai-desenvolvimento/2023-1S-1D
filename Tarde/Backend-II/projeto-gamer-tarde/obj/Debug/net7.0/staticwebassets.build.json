@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iiLYAQCo+OTKikMf1jMhk1VCpNAenYc3G4BQOOg9TE4=",
+  "Hash": "FtyKJHygYX7/9YddORF75k+XPq2weAcmoY1xkdCvCYI=",
   "Source": "projeto-gamer-tarde",
   "BasePath": "_content/projeto-gamer-tarde",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\bahia.png"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\ibis.png",
+      "SourceId": "projeto-gamer-tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-tarde",
+      "RelativePath": "img/Equipes/ibis.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\ibis.png"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\padrao.png",
+      "SourceId": "projeto-gamer-tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-tarde",
+      "RelativePath": "img/Equipes/padrao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
     },
     {
       "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Tarde\\Backend-II\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\sao paulo.jfif",
