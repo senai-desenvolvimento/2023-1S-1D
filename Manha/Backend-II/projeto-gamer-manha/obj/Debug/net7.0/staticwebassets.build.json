@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OsCaTr/os8C96wIIJ9PK4fMWRf5n8ZXNppImPSkMBl4=",
+  "Hash": "++KTVd27FinGqD5zYePZjP0TVd1ZiQHUdnAfrQ+AtVY=",
   "Source": "projeto-gamer-manha",
   "BasePath": "_content/projeto-gamer-manha",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\agua santa.png"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\img\\Equipes\\ibis.png",
+      "SourceId": "projeto-gamer-manha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-manha",
+      "RelativePath": "img/Equipes/ibis.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\ibis.png"
     },
     {
       "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\img\\Equipes\\palmeiras.png",

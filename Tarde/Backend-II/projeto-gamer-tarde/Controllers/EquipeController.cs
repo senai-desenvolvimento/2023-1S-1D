@@ -103,11 +103,13 @@ namespace projeto_gamer_tarde.Controllers
         }
 
         [Route("Atualizar")]
-        public IActionResult Atualizar(IFormCollection form, Equipe e)
+        public IActionResult Atualizar(IFormCollection form)
         {
             Equipe novaEquipe = new Equipe();
 
-            novaEquipe.Nome = e.Nome;
+            novaEquipe.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            novaEquipe.Nome = form["Nome"].ToString();
 
             //upload da imagem na equipe nova(atualizada)
             if (form.Files.Count > 0)
@@ -135,12 +137,13 @@ namespace projeto_gamer_tarde.Controllers
                 novaEquipe.Imagem = "padrao.png";
             }
 
-            Equipe equipe = c.Equipe.First(x => x.IdEquipe == e.IdEquipe);
 
-            equipe.Nome = novaEquipe.Nome;
-            equipe.Imagem = novaEquipe.Imagem;
+            Equipe equipeBuscada = c.Equipe.First(x => x.IdEquipe == novaEquipe.IdEquipe);
 
-            c.Equipe.Update(equipe);
+            equipeBuscada.Nome = novaEquipe.Nome;
+            equipeBuscada.Imagem = novaEquipe.Imagem;
+
+            c.Equipe.Update(equipeBuscada);
 
             c.SaveChanges();
 
