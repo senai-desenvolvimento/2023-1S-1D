@@ -1,1 +1,30 @@
-@* A view de exibição de jogadores *@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Jogador";
+}
+
+<h2>Tela de Jogadores</h2>
+
+<table class="table table-striped table-responsive">
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Equipe</th>
+    </thead>
+
+    <tbody>
+        @foreach (Jogador jogador in ViewBag.Jogador)
+        {
+            <tr>
+                <td>@jogador.IdJogador</td>
+                <td>@jogador.Nome</td>
+                <td>@jogador.Email</td>
+                <td>
+                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="Imagem da equipe @jogador.Equipe.Nome" width="50px">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
