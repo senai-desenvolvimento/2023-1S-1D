@@ -141,24 +141,6 @@ namespace projeto_gamer_manha.Controllers
             return LocalRedirect("~/Equipe/Listar");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
