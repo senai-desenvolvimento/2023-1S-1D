@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using projeto_gamer_tarde.Infra;
+using projeto_gamer_tarde.Models;
 
 namespace projeto_gamer_tarde.Controllers
 {
@@ -30,12 +31,76 @@ namespace projeto_gamer_tarde.Controllers
             return View();
         }
 
+        [Route("Excluir/{id}")]
+        public IActionResult Excluir(int id)
+        {
+           Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == id);
+
+           c.Jogador.Remove(jogadorBuscado);
+           c.SaveChanges();
+
+           return LocalRedirect("~/Jogador/Listar");
+        }
+
+        [Route("Editar/{id}")]
+        public IActionResult Editar(int id)
+        {
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == id);
+
+            ViewBag.Jogador = jogadorBuscado;
+            ViewBag.Equipe = c.Equipe.ToList();
+
+            return View("Edit");
+        } 
+
+
+
+
+        [Route("Atualizar")]
+        public IActionResult Atualizar(IFormCollection form)
+        {
+            Jogador novoJogador = new Jogador();
+            
+            novoJogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            Jogador jogadorBuscado  = c.Jogador.First(j => j.IdJogador == novoJogador.IdJogador);
+
+            jogadorBuscado.Nome = novoJogador.Nome;
+            jogadorBuscado.Email = novoJogador.Email;
+            jogadorBuscado.Senha = novoJogador.Senha;
+            jogadorBuscado.IdEquipe = novoJogador.IdEquipe;
+
+            c.Jogador.Update(jogadorBuscado);
+            c.SaveChanges();
+
+            return LocalRedirect("~/Jogador/Listar");
+
+
+        }
+
+
+
+
+
+
+
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
         {
-            // Implementar o método de cadastro
+            Jogador novoJogador = new Jogador();
 
-            return LocalRedirect("");
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            c.Jogador.Add(novoJogador);
+            c.SaveChanges();
+            return LocalRedirect("~/Jogador/Listar");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
