@@ -22,10 +22,12 @@ namespace projeto_gamer_tarde.Controllers
 
         //instância do objeto da classe Context : acessa o BD
         Context c = new Context();
-                            
+
         [Route("Listar")]//http://localhost/Equipe/Listar
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             //"mochila" que contém a lista das equipes
             //podemos usar essa ""mochila" na view de equipe
             ViewBag.Equipe = c.Equipe.ToList();
@@ -50,7 +52,7 @@ namespace projeto_gamer_tarde.Controllers
             {
                 var file = form.Files[0];
 
-                var folder = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img/Equipes");
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
 
                 if (!Directory.Exists(folder))
                 {
@@ -71,11 +73,11 @@ namespace projeto_gamer_tarde.Controllers
                 novaEquipe.Imagem = "padrao.png";
             }
             //fim da lógica de upload de imagem
-            
+
             c.Equipe.Add(novaEquipe);
             //c.Add(novaEquipe);
 
-            c.SaveChanges();            
+            c.SaveChanges();
 
             return LocalRedirect("~/Equipe/Listar");
         }
@@ -83,7 +85,7 @@ namespace projeto_gamer_tarde.Controllers
         [Route("Excluir/{id}")]
         public IActionResult Excluir(int id)
         {
-            Equipe e = c.Equipe.First( e => e.IdEquipe == id);
+            Equipe e = c.Equipe.First(e => e.IdEquipe == id);
 
             c.Equipe.Remove(e);
 
@@ -95,11 +97,13 @@ namespace projeto_gamer_tarde.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
-           Equipe e = c.Equipe.First(e => e.IdEquipe == id);
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
 
-           ViewBag.Equipe = e;
+            Equipe e = c.Equipe.First(e => e.IdEquipe == id);
 
-           return View("Edit");
+            ViewBag.Equipe = e;
+
+            return View("Edit");
         }
 
         [Route("Atualizar")]
@@ -125,7 +129,7 @@ namespace projeto_gamer_tarde.Controllers
 
                 var path = Path.Combine(folder, file.FileName);
 
-                using(var stream = new FileStream(path, FileMode.Create))
+                using (var stream = new FileStream(path, FileMode.Create))
                 {
                     file.CopyTo(stream);
                 }

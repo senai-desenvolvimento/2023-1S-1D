@@ -25,6 +25,7 @@ namespace projeto_gamer_tarde.Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
             ViewBag.Jogador = c.Jogador.ToList();
             ViewBag.Equipe = c.Equipe.ToList();
 
@@ -45,6 +46,8 @@ namespace projeto_gamer_tarde.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+            
             Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == id);
 
             ViewBag.Jogador = jogadorBuscado;
@@ -52,9 +55,6 @@ namespace projeto_gamer_tarde.Controllers
 
             return View("Edit");
         } 
-
-
-
 
         [Route("Atualizar")]
         public IActionResult Atualizar(IFormCollection form)
@@ -78,15 +78,7 @@ namespace projeto_gamer_tarde.Controllers
             c.SaveChanges();
 
             return LocalRedirect("~/Jogador/Listar");
-
-
         }
-
-
-
-
-
-
 
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
