@@ -7,12 +7,12 @@ namespace projeto_gamer_manha.Models
     {
         [Key]//DATA ANNOTATION - IdJogador
         public int IdJogador { get; set; }
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
+        public string? Nome { get; set; }
+        public string? Email { get; set; }
+        public string? Senha { get; set; }
         
         [ForeignKey("Equipe")]//DATA ANNOTATION - IdEquipe
         public int IdEquipe { get; set; }
-        public Equipe Equipe {get;set;}       
+        public Equipe? Equipe {get;set;}       
     }
 }

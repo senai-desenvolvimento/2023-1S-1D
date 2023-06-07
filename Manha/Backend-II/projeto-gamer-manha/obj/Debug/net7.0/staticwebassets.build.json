@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "++KTVd27FinGqD5zYePZjP0TVd1ZiQHUdnAfrQ+AtVY=",
+  "Hash": "GiW0j9FeIa7O9QmU0l29XoXtZ7y7WMKmJNI6hBCu4E0=",
   "Source": "projeto-gamer-manha",
   "BasePath": "_content/projeto-gamer-manha",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\palmeiras.png"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\img\\Equipes\\sao paulo.jfif",
+      "SourceId": "projeto-gamer-manha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-manha",
+      "RelativePath": "img/Equipes/sao paulo.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\sao paulo.jfif"
     },
     {
       "Identity": "C:\\Users\\Carlos\\Desktop\\2023-1S-1D\\Manha\\Backend-II\\projeto-gamer-manha\\wwwroot\\js\\site.js",

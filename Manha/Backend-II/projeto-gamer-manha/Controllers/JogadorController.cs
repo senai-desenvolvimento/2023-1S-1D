@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using projeto_gamer_manha.Infra;
 using projeto_gamer_manha.Models;
 
@@ -25,6 +19,7 @@ namespace projeto_gamer_manha.Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
             ViewBag.Jogador = c.Jogador.ToList();
             ViewBag.Equipe = c.Equipe.ToList();
 
@@ -61,6 +56,8 @@ namespace projeto_gamer_manha.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+            
             Jogador jogador = c.Jogador.First(j => j.IdJogador == id);
 
             ViewBag.Jogador = jogador;
