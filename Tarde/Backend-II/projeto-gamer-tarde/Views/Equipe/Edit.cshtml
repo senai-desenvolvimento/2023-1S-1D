@@ -6,17 +6,24 @@
 
 <h2>Edição de Equipes</h2>
 
-<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+@if (ViewBag.UserName == null)
+{
+    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
 
-    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+    <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
+        <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
 
-    <label for="">Imagem</label>
-    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+        <label for="">Nome</label>
+        <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
 
-    <button type="submit">Atualizar</button>
+        <label for="">Imagem</label>
+        <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
 
-</form>
+        <button type="submit">Atualizar</button>
 
+    </form>
+}
