@@ -43,6 +43,19 @@ namespace projeto_gamer_manha.Controllers
             return LocalRedirect("~/Login/Login");
         }
 
+        [Route("Logout")]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("UserName");
+            
+            return LocalRedirect("~/");
+        }
+
+
+
+
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
