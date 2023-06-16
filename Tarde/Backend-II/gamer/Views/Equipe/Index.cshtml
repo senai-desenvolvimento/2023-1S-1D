@@ -1,0 +1,77 @@
+@model Equipe
+
+@{
+    ViewData["Title"] = "Equipe";
+}
+
+<link rel="stylesheet" href="~/css/equipes.css">
+
+@if (ViewBag.UserName == null)
+{   
+    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
+    <!-- MAIN -->
+    <main>
+
+        <section class="container-grid cadastro-equipes">            
+            
+            <form class="frm-cad-equipe" method="POST" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Equipes</h1>
+                    <hr>
+                </div>
+                
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome" required>
+                <label class="foto" for="foto-file">                    
+                    <input  type="file" id="foto-file" name="Imagem">
+                </label>
+                
+                <button type="submit">Cadastro</button>               
+            </form>
+
+            <!-- TABELA CADASTRO DE EQUIPES -->
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Imagem</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (Equipe equipe in ViewBag.Equipe)
+                        {
+
+                            <tr>
+                                <td>@equipe.IdEquipe</td>
+                                <td>@equipe.Nome</td>
+                                <td>
+                                    <img class="green-play" src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome">
+                                </td>
+                                <td>
+                                    <a  asp-controller="Equipe" 
+                                        asp-action="Excluir" 
+                                        asp-route-id="@equipe.IdEquipe"
+                                    >
+                                        <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                                    </a>
+                                    <a  asp-controller="Equipe" 
+                                        asp-action="Editar" 
+                                        asp-route-id="@equipe.IdEquipe"
+                                    >
+                                        <img class="yellow-trash" src="~/assets/edit.png" alt="">
+                                    </a>                                    
+                                </td>
+                            </tr>
+                        }
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>    
+}

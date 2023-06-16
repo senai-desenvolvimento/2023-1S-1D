@@ -1,0 +1,677 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\gamer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\gamer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\Banner_Login.png",
+      "PackagePath": "staticwebassets\\assets\\Banner_Login.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\Botao_voltar_ao_topo.svg",
+      "PackagePath": "staticwebassets\\assets\\Botao_voltar_ao_topo.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\edit.png",
+      "PackagePath": "staticwebassets\\assets\\edit.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\envelope-icon.png",
+      "PackagePath": "staticwebassets\\assets\\envelope-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\facebook-yellow.svg",
+      "PackagePath": "staticwebassets\\assets\\facebook-yellow.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\Inter-VariableFont_slnt,wght.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\Inter-VariableFont_slnt,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\OFL.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\README.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-Black.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Inter\\static\\Inter-Thin.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Inter\\static\\Inter-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\OFL.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\Quicksand-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\Quicksand-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\README.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\static\\Quicksand-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\static\\Quicksand-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\static\\Quicksand-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\static\\Quicksand-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\static\\Quicksand-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\static\\Quicksand-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\static\\Quicksand-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\static\\Quicksand-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Quicksand\\static\\Quicksand-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Quicksand\\static\\Quicksand-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\OFL.txt",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Black.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Italic.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fonts\\Titillium_Web\\TitilliumWeb-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Titillium_Web\\TitilliumWeb-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fundo-jogadores-mobile.png",
+      "PackagePath": "staticwebassets\\assets\\fundo-jogadores-mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\fundo-login.png",
+      "PackagePath": "staticwebassets\\assets\\fundo-login.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\go-to-top.png",
+      "PackagePath": "staticwebassets\\assets\\go-to-top.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\green-play.svg",
+      "PackagePath": "staticwebassets\\assets\\green-play.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\instagram-yellow.svg",
+      "PackagePath": "staticwebassets\\assets\\instagram-yellow.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\instagram.svg",
+      "PackagePath": "staticwebassets\\assets\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\joystick-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\joystick-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\joystick-prof-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\joystick-prof-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\linkedin-yellow.svg",
+      "PackagePath": "staticwebassets\\assets\\linkedin-yellow.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\linkedin.svg",
+      "PackagePath": "staticwebassets\\assets\\linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\logotipo-gamer.png",
+      "PackagePath": "staticwebassets\\assets\\logotipo-gamer.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\logotipo-gamer.svg",
+      "PackagePath": "staticwebassets\\assets\\logotipo-gamer.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\logout.png",
+      "PackagePath": "staticwebassets\\assets\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\market-icon.png",
+      "PackagePath": "staticwebassets\\assets\\market-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\menu-hamburger.svg",
+      "PackagePath": "staticwebassets\\assets\\menu-hamburger.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\menu-points.png",
+      "PackagePath": "staticwebassets\\assets\\menu-points.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\phone-icon.png",
+      "PackagePath": "staticwebassets\\assets\\phone-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\search-icon.png",
+      "PackagePath": "staticwebassets\\assets\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\search-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\trash.png",
+      "PackagePath": "staticwebassets\\assets\\trash.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\user-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\user-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\vector-key.svg",
+      "PackagePath": "staticwebassets\\assets\\vector-key.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\assets\\vector-user.svg",
+      "PackagePath": "staticwebassets\\assets\\vector-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\equipes.css",
+      "PackagePath": "staticwebassets\\css\\equipes.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\Background-Login.png",
+      "PackagePath": "staticwebassets\\images\\Background-Login.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\Banner_Liga-Game-Mobile.png",
+      "PackagePath": "staticwebassets\\images\\Banner_Liga-Game-Mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\Banner_Liga-Game.png",
+      "PackagePath": "staticwebassets\\images\\Banner_Liga-Game.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\Card-FIFA.png",
+      "PackagePath": "staticwebassets\\images\\Card-FIFA.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\Game-CS-GO.png",
+      "PackagePath": "staticwebassets\\images\\Game-CS-GO.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\Game-FIFA.png",
+      "PackagePath": "staticwebassets\\images\\Game-FIFA.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\background-equipes-mobile.png",
+      "PackagePath": "staticwebassets\\images\\background-equipes-mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\background-jogadores.png",
+      "PackagePath": "staticwebassets\\images\\background-jogadores.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\background-login-mobile.png",
+      "PackagePath": "staticwebassets\\images\\background-login-mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\backgroung_footer.png",
+      "PackagePath": "staticwebassets\\images\\backgroung_footer.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\backgrund_notícias-mobile.png",
+      "PackagePath": "staticwebassets\\images\\backgrund_notícias-mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\backgrund_notícias.png",
+      "PackagePath": "staticwebassets\\images\\backgrund_notícias.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\kiljoy.png",
+      "PackagePath": "staticwebassets\\images\\kiljoy.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\lade-lol.png",
+      "PackagePath": "staticwebassets\\images\\lade-lol.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia1.png",
+      "PackagePath": "staticwebassets\\images\\noticia1.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia2.png",
+      "PackagePath": "staticwebassets\\images\\noticia2.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia3.png",
+      "PackagePath": "staticwebassets\\images\\noticia3.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia4.png",
+      "PackagePath": "staticwebassets\\images\\noticia4.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia5.png",
+      "PackagePath": "staticwebassets\\images\\noticia5.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia6.png",
+      "PackagePath": "staticwebassets\\images\\noticia6.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia7.png",
+      "PackagePath": "staticwebassets\\images\\noticia7.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\images\\noticia8.png",
+      "PackagePath": "staticwebassets\\images\\noticia8.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\agua santa.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\agua santa.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\bahia.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\bahia.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\barcelona.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\barcelona.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\chelsea.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\chelsea.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\crak.jfif",
+      "PackagePath": "staticwebassets\\img\\Equipes\\crak.jfif"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\csgo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\csgo.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\fifa.jpeg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\fifa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\fifa.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\fifa.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\innsyng.jfif",
+      "PackagePath": "staticwebassets\\img\\Equipes\\innsyng.jfif"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\madri.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\madri.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\padrao.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\palmeiras.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\palmeiras.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\progaming.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\progaming.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\img\\Equipes\\valorant.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\valorant.png"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\carlos.roque\\Desktop\\gamer_mvc_completo\\gamer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.gamer.props",
+      "PackagePath": "build\\gamer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.gamer.props",
+      "PackagePath": "buildMultiTargeting\\gamer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.gamer.props",
+      "PackagePath": "buildTransitive\\gamer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.gamer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
