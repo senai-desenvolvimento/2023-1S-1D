@@ -100,7 +100,7 @@
 
         <section class="rights">
             <div class="layout-grid">
-                <p>Copyright © 2020 - Escola Senai de Informática</p>
+                <p>Copyright © <span id="ano_atual"></span> - Escola Senai de Informática</p>
             </div>
         </section>
 
@@ -108,6 +108,10 @@
 
 
     <script>
+        
+        let anoAtual = new Date().getFullYear();
+        document.getElementById("ano_atual").innerHTML = anoAtual;
+
         function mostrarMenu() {
             document.getElementById("navmenu").classList.toggle("mostrarMenu");
         }
