@@ -75,4 +75,12 @@ Repositório com os conteúdos desenvolvidos com as turmas do primeiro semestre 
   - Equipamentos
   - Casa Inteligente
 
-Administrado por Carlos Roque e Eduardo Costa :heart_eyes:
+Administrado por: 
+
+## Carlos Roque :heart_eyes:
+  [GitHub](https://github.com/)
+  [Linkedin](https://www.linkedin.com/in/roquecarlos/)
+
+## Eduardo Costa :heart_eyes:
+  [GitHub](https://github.com/eduardocostaprofessor)
+  [Linkedin](https://www.linkedin.com/in/eduardocostaprofessor/)
