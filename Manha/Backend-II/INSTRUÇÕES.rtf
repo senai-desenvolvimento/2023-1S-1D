@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14760\viewh11760\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 aplicando o front\
+\
+copiar o projeto funcional\
+rodar e testar o projeto copiado\
+\
+importar a pasta assets e images para dentro da wwwroot\
+duplicar o _Layout.cshtml ( _LayoutBCK.cshtml)\
+no _Layout.cshtml substituir o header pelo header gamer\
+alterar todos os caminhos de ./ para ~/\
+fazer a chamada do arquivo style.css(SINGULAR)\
+\
+substituir os links das p\'e1ginas de equipe e jogador pelos links do _LayoutBCK.cshtml, para a configura\'e7\'e3o do asp controller e asp action\
+inserir a valida\'e7\'e3o dos links equipes e jogadores sem a instru\'e7\'e3o ELSE(remover o login que ficar\'e1 sempre dispon\'edvel)\
+inserir o link no icone de usu\'e1rio(login)\
+migrar as sessoes da index passo a passo (esperar o professor)\
+\
+dica : usar watch run com y sempre que salvar uma altera\'e7\'e3o\
+\
+remover o bootstrap e css desnecess\'e1rio\
+\
+\
+** Copiar a pasta assets e images para a wwwroot\
+** Duplicar o arquivo _Layout.cshtml para _Layout.BACKUP.cshtml\
+** Alterar o atributo lang pt-BR na tag html\
+** Copiar o arquivo style.css para a pasta wwwroot/css\
+\
+** Fazer a chamada do arquivo style.css utilizando o til ~\
+** Copiar o  Header html para o arquivo _Layout.cshtml\
+** Trocar os caminhos das imagens e etc. find and replace (CTRL + F - replace all**)\
+\
+** Migrar o Footer\
+	- Apagar o footer original \
+	- Apagar as chamadas javascript <script>\'85</script>\
+	- Cuidado para n\'e3o apagar a instru\'e7\'e3o @await\
+	- Colar o footer do Gamer antes da instru\'e7\'e3o @await\
+	- Substituir os caminhos com o til ~/\
+\
+** Ajustar os links e inserir os ifs corretamente conforme em aula\
+\
+** Migrar a Home\
+	- Arquivo Views/Home/Index.cshtml\
+	- Alterar o T\'edtulo da p\'e1gina ViewData\
+	- Copiar o Banner\
+	- Copiar Card Jogos\
+	- Copiar as outras sess\'f5es, com excess\'e3o do Header e do Footer \
+		que j\'e1 foram migrados/copiados para Views/Shared/Layout.cshtml\
+	- Alterar os caminhos para o til-barra \'98/\
+	- Colocar um id na sess\'e3o de not\'edcias - id=\'93noticias\'92 \
+	- Alterar o link not\'edcias para ~/#noticias\
+\
+\
+\
+\
+\
++++++++++++++++++++++++++++++++\
+\
+** Trabalhar o CSS separando em componentes. Cada css separado dentro da pasta css\
+\
+[] 	Criar as medias queries\
+[]	Copiar e colar o header e o footer para um css separado. Tanto o mobile quanto as outras medias. Todos os CSS`s dever\'e3o ficar na pasta CSS.\
+	\
+\
+[] Migrar a p\'e1gina de Login\
+	- Copiar o arquivo de css do Gamer-Front para a pasta de css do Gamer-Back-End\
+	- Apagar as regras css desnecess\'e1rias\
+	- Ajustar os atributos method e action da tag form \
+	- Ajustar os names dos campos de formul\'e1rios\
+	- Copiar o Peek Message para baixo do bot\'e3o do formul\'e1rio\
+\
+[] Migrar a p\'e1gina de Equipes\
+	- Copiar o arquivo de css do Gamer-Front para a pasta de css do Gamer-Back-End\
+	- Apagar as regras css desnecess\'e1rias\
+	- Copiar a tag main com o form e a table\
+	- Apagar o campo idEquipe que n\'e3o \'e9 necess\'e1rio \
+	- Ajustar o if/else no cshtml\
+	- Ajustar os atributos method e action da tag form \
+	- Ajustar os names dos campos do formul\'e1rio conforme formul\'e1rio antigo (da funcionalidade)\
+	- Ajustar o foreach da tag table e ajustar os elementos necess\'e1rios\
+	\
+[] Migrar a p\'e1gina de Jogadores (Atividade para os alunos)}

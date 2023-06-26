@@ -1,0 +1,37 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<link rel="stylesheet" href="~/css/login.css">
+
+<!-- FORMULÁRIO DE LOGIN -->
+    <main class="fundo-login">
+        <div class="bkg-login">
+            <form class="frm-login" method="post" action="@Url.Action("Logar")">
+                <div class="login-title">
+                    <hr class="login-line">
+                    <h1>Login</h1>
+                </div>
+                <div class="frm-linha">
+                    <div class="bkg-input">
+                        <img src="~/assets/vector-user.svg" alt="ícone de usuário">
+                        <input type="email" name="Email" required id="email" placeholder="Digite seu e-mail:">
+                    </div>
+                </div>
+                <div class="frm-linha">
+                    <div class="bkg-input">
+                        <img src="~/assets/vector-key.svg" alt="ícone de chave">
+                        <input type="password" name="Senha" required id="password" placeholder="Digite sua senha:">
+                    </div>
+                </div>
+
+                <button class="btn-logar">Logar</button>
+                
+                <br>
+                @TempData.Peek("Message")
+            </form>
+        </div>
+
+    </main>
