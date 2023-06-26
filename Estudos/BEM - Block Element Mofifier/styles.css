@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.titulo-pagina {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+/* componente formulário BLOCK */
+.form-login {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ELEMENTS */
+.form-login__rotulo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.form-login__entrada {
+    height: 40px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+/* BLOCK/ELEMENT */
+.botao {
+    height: 40px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.botao--padrao {
+    background-color: transparent;
+    transition: background-color .4s, color .4s, border .4s;
+
+}
+.botao--padrao:hover {
+    background-color: rgb(243, 243, 243);
+}
+.botao-danger {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+.botao-danger:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}

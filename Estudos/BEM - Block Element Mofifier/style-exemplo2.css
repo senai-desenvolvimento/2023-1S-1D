@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.titulo-pagina {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.frm-login {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frm-login__rotulo {
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.frm-login__entrada {
+    height: 40px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.frm-login__botao {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.botao--danger {
+    background-color: red;
+    color: white;
+}
+
+.botao--danger:hover {
+    background-color: white;
+    color: red;
+}
